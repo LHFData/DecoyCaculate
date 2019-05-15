@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116819380-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-116819380-1');
+	</script>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1000, initial-scale=1, shrink-to-fit=yes">
+    <!-- meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" -->
+    <meta charset="UTF-8">
+        <title>AS Rank: AS1  (Level 3 Parent, LLC) </title>
+    <META NAME="Description" CONTENT="AS Rank:6106 Customer Cone:2 Transit Degree:4">
+            <!-- Bootstrap CSS -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/flag-icon.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="/css/asrank.css">
+        <script type="application/ld+json"> {"rank":"6106","asn":"1","country":"US","name":"LVLT-1","cone":{"addresses":82272,"prefixes":352,"asns":2},"degree":{"transits":4,"customers":1,"providers":10,"peers":3,"siblings":1,"globals":14},"longitude":"-93.462652757845","latitude":"41.1582804803752","clique":"false","org":{"id":"LPL-141-ARIN","name":"Level 3 Parent, LLC"},"country_name":"United States","source":"e5e3b9c13678dfc483fb1f819d70883c_ARIN","id":"1"}</script> 
+    <style>
+        .navbar .navbar-toggle .icon-bar {
+        background-color: CornflowerBlue ;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="background-color:black;width:100%;height:.5em"></div>
+     <div id="navbar" class="container asrank-navbar-container">
+    <nav class="navbar navbar-expand navbar-light justify-content-front asrank-navbar">
+        <a href="/">
+    <img src="/images/asrank-logo-letters.svg" class="img-fluid asrank-asrank-logo">
+    <img src="/images/asrank-logo-ank.svg" class="d-none d-sm-inline-block img-fluid asrank-asrank-logo" style="margin-left:-2px">
+</a>
+        <div>
+        <div class="collapse navbar-collapse justify-content-front" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" aria-labelledby="navAbout">
+                    <a class="dropdown-item" href="/faq">FAQ</a>
+                    <a class="dropdown-item" href="/about">Background</a>
+                        <a class='dropdown-item' style="padding-left:2em;" href="/about#rank">- AS Ranking</a>
+                        <a class='dropdown-item' style="padding-left:2em;" href="/about#citation">- Citation</a>
+                    <a class="dropdown-item"
+                        href="http://www.caida.org/publications/presentations/2018/asrank_reborn/asrank_reborn.pdf">AS Rank Slides</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navRanking" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ranking</a>
+                <div class="dropdown-menu" aria-labelledby="navRanking">
+                    <a class="dropdown-item" href="/asns">AS Ranking</a>
+                    <a class="dropdown-item" href="/orgs">Org Ranking</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/asns/">Search</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navData" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data </a>
+                <div class="dropdown-menu" aria-labelledby="navData">
+                    <div style="text-align:center;font-size:80%;font-color:grey;">(external links)</div>
+                    <a class="dropdown-item" href="http://www.caida.org/data/as-relationships/">AS Relationship</a>
+                    <a class="dropdown-item" href="http://www.caida.org/data/as-organizations/">AS Organization</a>
+                  <a class="dropdown-item" href="//as-rank.caida.org/api/v1">Data API</a>
+                </div>
+              </li>
+            </ul>
+        </div>
+                    <div style="
+                position:absolute;
+                left:130px;
+                top:33px;
+                z-index:1;
+                color:grey;
+                font-size:80%
+                " class="navbar-nav">
+                    <div style="color:black;baseline:10px;margin-top:8px;">AS 1:</div>
+                    <a href="#" class="nav-link dropdown-toggle" id="navLocation" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" >neighbors<a>
+                    <div class="dropdown-menu" aria-labelledby="navLocation"
+                        style="line-height:10px;font-size:80%;padding:0;left:-4em;top:2.5em;position:relative;">
+                                                    <a class="dropdown-item" href="/asns/1/neighbors">neighbors</a>
+                                                    <a class="dropdown-item" href="/asns/1/as-core">AS Core</a>
+                                            </div>
+            </div>
+            </nav>
+</div>
+     <!--
+    <table border="0" style="position:static;x:0;padding:0;margin:0;width:100%">
+        <tr>
+            <td style="white-space:nowrap;"></td>
+        </tr>
+    </table>
+    <div>
+      <span class="d-none d-sm-block">Small</span>
+      <span class="d-none d-md-block">Medium</span>
+      <span class="d-none d-lg-block">Large</span>
+      <span class="d-none d-xl-block">Extra Large</span>
+    </div>
+    -->
+
+    <!--------------------------------------------------------->
+
+
+    <div id="content" class="asrank-content container">
+        <div id="default_error_location" class="asrank_result_error" style="visibility: hidden;"></div>
+                 <form action="/asns/">
+        <div class="asrank-asn-search-form-div input-group"
+            <label for="asn_search"></label>
+            <input type="text" class="form-control" value="1" name="name"
+            placeholder="ASN name or number">
+            <button type="search" name="type" value="search" class="btn btn-primary" style="margin-left:.2em;">search</button>
+            <button type="search" name="type" value="go to" class="btn btn-primary" style="margin-left:.2em;">go to</button>
+        </div>
+    </form>
+
+     <div class="row">
+                                                                        
+
+        <div class="col-sm-2 col-md-3" style="height:210px;width:210px;">
+        <a href="/asns/1/as-core">
+
+    
+        <img src="/images/as-core-small.png" style="height: 100%; width: auto;position: absolute;
+            top: 0;
+            left: 0;
+            z-index:-3;">
+
+        <svg style="height: 100%; width: auto;position: absolute;
+            top: 0;
+            left: 0;
+            z-index:-2;" viewBox="0 0 300 300">
+            <circle cx="150" cy="150" r="147" stroke="black" stroke-width="0" fill="black" fill-opacity="0.7"/>
+        </svg>
+
+
+                                        <img id="as_core_image_small_id" src="/as_core/1" style="height: 100%; width: auto;position: absolute;
+                top: 0;
+                left: 0;
+                z-index:0"">
+        
+            </a>
+        </div>
+            <div class="asrank-asn-info-div">
+<table class="asrank-info-table table-condensed" border="0">
+    <tr><th>AS number</th><td colspan="7">1</td></tr>
+    <tr><th>AS name</th><td colspan="7">LVLT-1</td></tr>
+    <tr><th>organization</th><td colspan="7"><a href="/orgs/LPL-141-ARIN">Level 3 Parent, LLC</a></td></tr>
+    <tr><th>country</th><td colspan="7">
+                            United States 
+                <span class="flag-icon flag-icon-us"></span>
+                    </td></tr>
+    <tr><th>customer cone </th>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of ASNs that are observed to be in the selected ASN's customer cone."> 
+            2<br>
+            <span>asn</span>
+        </td>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of prefixes that are observed to be in the selected ASN's customer cone."> 
+            352<br>
+            <span>prefix</span>
+        </td>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of addresses that are observed to be in the selected ASN's customer cone."> 
+            82272<br>
+            <span>address</span>
+        </td>
+    </tr>
+    <tr><th>AS rank</th><td colspan="7">6106</td></tr>
+    <tr><th>AS degree</th>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of ASNs that were observed as neighbors of the selected ASN in a path.">
+            14<br>
+            <span>global</span>
+        </td>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of ASNs that where observed as neighbors of the selected ASN in a path, where the selected ASN was between, i.e. providing transit, for two other ASNs."> 
+            4<br>
+            <span>transit</span>
+        </td>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of ASNs that are providers of the selected ASN."> 
+            10<br>
+            <span>provider</span>
+        </td>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of ASNs that are peers of the selected ASN."> 
+            3<br>
+            <span>peer</span>
+        </td>
+        <td class="asrank-info-table-sub_facts" data-toggle="tooltip" data-placement="top" title="The number of ASNs that are customers of the selected ASN."> 
+            1<br>
+            <span>customer</span>
+        </td>
+    </tr>
+</table>
+</div>
+    </div>
+            <div class="asrank-asn-neighbors-div" id="asn_neighbors_table"> </div>
+        </div>
+     <div class="asrank-data-sources">
+    <div class="asrank-data-sources-title">Data Sources:</div>
+    <div class="asrank-data-sources-set"></div>
+</div>
+      <footer class="footer">
+<div id="footer" class="container-full asrank-footer">
+<div class="row">
+    <div id="footer-dataset" rel="tooltip" class="col-3 col-lg-2" title="" data-toggle="tooltip">
+        <!-- a href="https://www.dhs.gov/"> <img src="/images/dhs-logo.svg"
+        class="d-none d-sm-inline-block asrank-support-dhs-logo"> </a-->
+        <a href="https://www.ucsd.edu/"> <img src="/images/ucsd-seal.svg"
+        class="d-none d-sm-inline-block asrank-support-ucsd-seal"> </a>
+    </div>
+    <div class="col-9 col-lg-10 asrank-support">
+        <a href="http://www.caida.org"> <img src="/images/caida-logo.svg" class="asrank-support-caida-logo"> </a>
+        <span class="asrank-support-text">
+            Support for this work is provided by the U.S. Department of Homeland Security's Science and Technology Directorate (
+                <a href="https://www.caida.org/funding/cybersecurity/">Cybersecurity</a> N66001-08-C-2029,
+                <a href="http://www.caida.org/funding/sister/">SISTER</a> HHSP 233201600012C
+                ),
+            the National Science Foundation Internet Laboratory for Empirical Network Science (
+                <a href="http://www.caida.org/funding/dibbs-panda/">PANDA</a> NSF OAC-1724853, 
+                <a href="https://www.caida.org/funding/ilens/">iLENS</a> CNS-0958547,
+                <a href=" https://sciencegateways.org/">Science Gateway</a> NSF ACI--1547611),
+            and Cisco's University Research Program.
+        </span>
+    </div>
+</div>
+</div>
+</footer>
+
+ 
+    <!--------------------------------------------------------->
+         
+        <script>
+            // URL for the restful database
+            var RESTFUL_DATABASE_URL="//as-rank.caida.org/api/v1";
+            var PAGE_NUMBER_RANGE=3;
+        </script>
+
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/asrank.js"></script>
+        <script src="/js/table_trees.js"></script>
+
+        <script>
+            // initilizes the tooltips
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+                            // fills in the footer information
+                dataset_information();
+                    </script>
+    
+    <script>
+                    build_info_table('asn_neighbors','1',1,40,'', '', '{&quot;rank&quot;:&quot;6106&quot;,&quot;asn&quot;:&quot;1&quot;,&quot;country&quot;:&quot;US&quot;,&quot;name&quot;:&quot;LVLT-1&quot;,&quot;cone&quot;:{&quot;addresses&quot;:82272,&quot;prefixes&quot;:352,&quot;asns&quot;:2},&quot;degree&quot;:{&quot;transits&quot;:4,&quot;customers&quot;:1,&quot;providers&quot;:10,&quot;peers&quot;:3,&quot;siblings&quot;:1,&quot;globals&quot;:14},&quot;longitude&quot;:&quot;-93.462652757845&quot;,&quot;latitude&quot;:&quot;41.1582804803752&quot;,&quot;clique&quot;:&quot;false&quot;,&quot;org&quot;:{&quot;id&quot;:&quot;LPL-141-ARIN&quot;,&quot;name&quot;:&quot;Level 3 Parent, LLC&quot;},&quot;country_name&quot;:&quot;United States&quot;,&quot;source&quot;:&quot;e5e3b9c13678dfc483fb1f819d70883c_ARIN&quot;,&quot;id&quot;:&quot;1&quot;}');
+            </script>
+</body>
+</html>

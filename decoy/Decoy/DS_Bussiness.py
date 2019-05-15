@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import os,json
 import DS_Global as glb
+import pdb
 class ExInValue:
     def __init__(self,src,dis,val):
         self.eirel=None
@@ -12,8 +13,16 @@ class ExInValue:
 def Relation(AS):
     censor=glb.censor
     decoy=AS.country
+   # pdb.set_trace()
     l=glb.EcoRel[censor][decoy]
-    return l    
+    return l
+def Relation(AS,ER):
+    censor=glb.censor
+    decoy=AS.country
+    if decoy in ER[censor]:
+        return ER[censor][decoy]
+    else:
+        return 0    
 class BussinessRel:
     def __init__(self,filename):
         self.rels=None

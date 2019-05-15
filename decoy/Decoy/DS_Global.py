@@ -10,10 +10,22 @@ ChinaGeoLoc=dict()
 ChinaASList=list()
 ChinaGeoLoc_Relate=dict()
 EcoRel=dict()
-p0=1
+p0=0.00000001
 local=""
 censor="China"
 testdic={1:'2',2:'3'}
+def GetPaths():
+    return Paths
+def GetG():
+    return G
+def GetCGL():
+    return ChinaGeoLoc
+def GetCAL():
+    return ChinaASList
+def GetCGLR():
+    return ChinaGeoLoc_Relate
+def GetER():
+    return EcoRel
 def _init():
 	#global G
 	if os.access(local+"data/ChinaAdjacent.gpickle",os.F_OK):
@@ -66,12 +78,12 @@ def _init():
 def remove(asn):
 	#global Paths
 	for key,value in Paths.items():
-		for v in value:
-			if asn in v:
+		for v in list(value.keys()):
+			if asn in value[v]:
 				#global Paths
 				value.pop(v)
 def reloaddata(data):
-	printf("reload data"+data)
+	print("reload data"+data)
 	if data=="G":
 		if os.access(local+"data/ChinaAdjacent.gpickle",os.F_OK):
 			global G

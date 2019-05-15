@@ -18,11 +18,37 @@ def U(ASsetlist):
                         #not in 
                         Size=Size+glb.ChinaGeoLoc[key]['size']*glb.ChinaGeoLoc_Relate[v]['size']
     return int(decoySize/(Size+decoySize))
+def U(ASsetlist,P,CGL,CAL,CGR):
+    decoySize=0
+    Size=0
+    for key,value in P.items():
+        #censor dest
+        if key in CAL:
+        #all dest to free
+            for v in value.keys():
+                if not v in CAL:
+                    if v in ASsetlist:
+                        #in decoy set
+                        decoySize=decoySize+CGL[key]['size']*CGR[v]['size']
+                    else:
+                        #not in
+                        Size=Size+CGL[key]['size']*CGR[v]['size']
+    if decoySize==0:
+        return 0
+    else:
+        return int(decoySize/(Size+decoySize))
 
-def Cost_AS(AS):
-    return glb.p0*AS.size*bus.Relation(AS)
+
+def Cost_AS(AS,P):
+    return glb.p0*AS.size*bus.Relation(AS,P)
 #input.ASset
-
+def getRouteOfAS(Paths,ASN):
+    result=list()
+    for p in Paths:
+        for pp in p:
+            if ASN in pp:
+                result.append(pp)
+    return result
 def U_ASn(ASlist,AS):
     utility=0
     for key,values in glb.Paths.items():
@@ -44,7 +70,7 @@ def U_ASn(ASlist,AS):
 def Cost_ASset(aslist):
     sum_cost=0
     for a in aslist:
-        sum_cost=sum_cost+Cost_AS(a)
+        sum_cost=sum_cost+a.cost
     return sum_cost
 
 

@@ -7,21 +7,36 @@ import DS_Caculate as cac
  
 class AS:
     def __init__(self,asn,size,country):
+        print(asn)
         self.size=size
         self.asn=asn
         self.geo=None
         self.decoy_flag=False
-        self.benefit=None
+        self.benefit=0
         #self.route=route
         self.country=country
         self.cost=None
+        self.decoy_route=list()
+        self.normal_route=list()
        # self.benefit()
         #self.routeBuild()
-    def routeBuild(self,route):
-        self.route=glb.Paths[self.asn]
+    def routeBuild(self,P):
+        self.normal_route=cac.getRouteOfAS(P,self.asn)
+    def getDecoy(asn):
+        for r in self.normal_route:
+            if asn in r:
+                self.decoy_route.append(r)
+        for r in self.decoy_route:
+            if r in self.normal_route:
+                self.normal_route.remove(r)
+        
     #it needs O(n^2) to get this answer
     def cost_set(self,cost):
         self.cost=cost
+    def response(self,P):
+        
+                
+    '''
     def Benefit(self):
         print("caculating benefit of "+self.asn)
         for p in glb.paths:
@@ -31,7 +46,14 @@ class AS:
                         self.benefit=int(glb.ChinaGeoLoc_Relate[pp[1]]['size'])*int(glb.ChinaGeoLoc_Relate[pp[-1]]['size'])
             #self.benefit=r[1].sizer[-1].size
 #       BENEFIT=SUM(ds_SIZE*sr_SIZE)
-
+     '''
+    def Benefit(self,CGR,P):
+        print("caculating benefit of "+self.asn)
+        for p in P:
+            if p!=None:
+                for pp in p:
+                    if self.asn in pp:
+                        self.benefit=int(CGR[pp[0]]['size'])*int(CGR[pp[-1]]['size'])
 #def SetASset():
 #    parse=pd.read_csv('ASdataTest.csv',sep='\t',header=0)
 #    return AS
@@ -41,50 +63,73 @@ def getBenefitR(elem):
     return elem.benefit/elem.cost
 class ASset:
     def __init__(self):
-        self.ASs=set()
+        self.ASs=list()
         self.size=0
         self.AS_dict=None
         self.costsum=0
     # used for build an as set
     def getASList(self):
-        return list(self.ASs)
+        return self.ASs
     def cost(self):
-        aslist=list(self.ASs)
+        aslist=self.ASs
         for i in aslist:
             self.costsum=self.costsum+i.cost
+    def build_init(self,CGR,ER,P):
+        print("len of CGL"+str(len(CGR))+"from AS")
+
+        print("init as set....")
+        if not len(CGR)==0:
+            print("strart add init AS--from DS_AS.build_init")
+            for key,value in CGR.items():
+                a=AS(key,value['size'],value['Country_N'])
+                print(type(a))
+                c=cac.Cost_AS(a,ER)
+                a.Benefit(CGR,P)
+                a.cost_set(c)
+                self.ASs.append(a)
+    '''
     def build_init(self):
-        print(len(glb.ChinaGeoLoc_Relate))
+        print("len of CGL"+str(len(glb.ChinaGeoLoc_Relate))+"from AS")
+        print("get glb.CGL"+str(len(glb.GetCGLR()))+"from AS")
+     
+        print("init as set....")
         if not len(glb.ChinaGeoLoc_Relate)==0:
+            print("strart add init AS--from DS_AS.build_init")
             for key,value in glb.ChinaGeoLoc_Relate.items():
                 a=AS(key,value['size'],value['Country_N'])
                 print(type(a))
                 c=cac.Cost_AS(a)
                 a.Benefit()
                 a.cost_set(c)
-                self.ASs.add(a)
+                self.ASs.append(a)
+    '''
     def addAS(self,AS):
-        self.ASs.add(AS)
+        self.ASs.append(AS)
         self.size=self.size+1
     #get max benefit
     def getMaxBenefitAS(self):
-        Aslist=list(self.ASs)
+        Aslist=self.ASs
+        print(str(len(Aslist))+"is the length of as")
         temp=-1
-        loc=-1
+        loc=0
         for idx,val in enumerate(Aslist):
-            if val.benefit/val.cost >temp :
-                temp=val.benefit/val.cost
-                loc=idx
-        self.ASs.discard(Aslist[loc])
-        return Aslist[loc]
-    def getMaxBenefitRateAS(self):
-        Aslist=list(self.ASs)
-        temp=-1
-        loc=-1
-        for idx,val in enumerate(Aslist):
-            if val.benefit>temp :
+            if val.benefit >temp :
                 temp=val.benefit
                 loc=idx
-        self.ASs.discard(Aslist[loc])
+        self.ASs.remove(Aslist[loc])
+        return Aslist[loc]
+    def getMaxBenefitRateAS(self):
+        Aslist=self.ASs
+        temp=-1
+        loc=0
+        for idx,val in enumerate(Aslist):
+            if val.cost==0:
+                loc=idx
+                break
+            if val.benefit/val.cost>temp :
+                temp=val.benefit/val.cost
+                loc=idx
+        self.ASs.remove(Aslist[loc])
         return Aslist[loc]
        # Aslist.sort(key=getBenefitR,reverse=True)
        # return Aslist[0]
