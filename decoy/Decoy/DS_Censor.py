@@ -22,6 +22,11 @@ class censor:
         for d in self.currentDecoy:
             self.G.remove_nodes(d)
         self.decision=nx.all_shortest_path(G)
+    def response(self,decoyAS):
+        for d in decoyAS:
+            if not d.asn in self.currentDecoy:
+                self.currentDecoy.append(d.asn)
+        return decoyAS
     def decision(self):
         lofd=list(self.decision.keys())
         for dk in lofd:
@@ -45,7 +50,7 @@ class censor:
             Len=Len+len(d)
         self.reachableNum=Len
     #def NVF(self):
-    def LongerPath(self,G):
+    def longerPath(self,G):
         old=self.pathlen
         new=dict(nx.shortest_path_length(G))
         com=list(old.keys()-new.keys())

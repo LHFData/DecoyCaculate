@@ -18,11 +18,13 @@ class AS:
         self.cost=None
         self.decoy_route=list()
         self.normal_route=list()
+        self.cleanbenefit=0
+        self.decoybenefit=0
        # self.benefit()
         #self.routeBuild()
     def routeBuild(self,P):
         self.normal_route=cac.getRouteOfAS(P,self.asn)
-    def getDecoy(asn,decoylist):
+    def getDecoy(self,decoylist):
         for r in self.normal_route:
             for rr in r:
                 if rr in decoylist:
@@ -111,15 +113,16 @@ class ASset:
                 a.cost_set(c)
                 self.ASs.append(a)
                 self.size=self.size+1
-    def getEachASResponse(self,CGR,P):
+    def getEachASResponse(self,CGR,P,decoylist):
         dl=list()
         result=ASset()
         with open("output/game1Decoy.json","r")as f:
             dl=json.load(f)
         for a in self.ASs:
             a.routeBuild(P)
-            a.getDecoy()
+            a.getDecoy(decoylist)
             a.response(CGR,P)
+            print(a.asn+"is c="+str(a.cleanbenefit)+"d="+str(a.decoybenefit))
             if a.cleanbenefit<a.decoybenefit:
                 a.decoy_flag=True
                 result.addAS(a)
@@ -129,7 +132,14 @@ class ASset:
                 a.decoy_flag=False
         return result
     def getDecoyAS(self):
+        l=list()
+        for d in self.ASs:
+            if d.asn in self.decoyASlist:
+                l.append(d)
+        return l
+    def getDecoyASList():
         return self.decoyASlist
+    '''
     def build_init(self):
         print("len of CGL"+str(len(glb.ChinaGeoLoc_Relate))+"from AS")
         print("get glb.CGL"+str(len(glb.GetCGLR()))+"from AS")
@@ -144,7 +154,7 @@ class ASset:
                 a.Benefit()
                 a.cost_set(c)
                 self.ASs.append(a)
-    
+    '''
     def addAS(self,AS):
         self.ASs.append(AS)
         self.size=self.size+1
