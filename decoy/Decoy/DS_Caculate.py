@@ -1,7 +1,7 @@
 import DS_Route
 import DS_Global as glb
 import DS_Bussiness as bus
-
+import copy
 def U(ASsetlist):
     decoySize=0
     Size=0
@@ -48,7 +48,7 @@ def getRouteOfAS(Paths,ASN):
         for pp in p:
             if ASN in pp:
                 result.append(pp)
-    return result
+    return copy.deepcopy(result)
 def U_ASn(ASlist,AS):
     utility=0
     for key,values in glb.Paths.items():

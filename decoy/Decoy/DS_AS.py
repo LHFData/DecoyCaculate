@@ -54,6 +54,7 @@ class AS:
        
                         
         #self.decoyflag=True
+    '''
     def Benefit(self):
         print("caculating benefit of "+self.asn)
         for p in glb.paths:
@@ -63,7 +64,7 @@ class AS:
                         self.benefit=int(glb.ChinaGeoLoc_Relate[pp[1]]['size'])*int(glb.ChinaGeoLoc_Relate[pp[-1]]['size'])
             #self.benefit=r[1].sizer[-1].size
 #       BENEFIT=SUM(ds_SIZE*sr_SIZE)
-    
+    '''
     def Benefit(self,CGR,P):
         print("caculating benefit of "+self.asn)
         for p in P:
@@ -107,7 +108,7 @@ class ASset:
             print("strart add init AS--from DS_AS.build_init")
             for key,value in CGR.items():
                 a=AS(key,value['size'],value['Country_N'])
-                print(type(a))
+               # print(type(a))
                 c=cac.Cost_AS(a,ER)
                 a.Benefit(CGR,P)
                 a.cost_set(c)
@@ -122,7 +123,8 @@ class ASset:
             a.routeBuild(P)
             a.getDecoy(decoylist)
             a.response(CGR,P)
-            print(a.asn+"is c="+str(a.cleanbenefit)+"d="+str(a.decoybenefit))
+            if a.cleanbenefit!=0 and  a.decoybenefit!=0:
+                print(a.asn+"is c="+str(a.cleanbenefit)+"d="+str(a.decoybenefit))
             if a.cleanbenefit<a.decoybenefit:
                 a.decoy_flag=True
                 result.addAS(a)
