@@ -51,7 +51,7 @@ if __name__== '__main__':
     ASes_init.build_init(glb.ChinaGeoLoc_Relate,glb.EcoRel,glb.Paths)
     print("listlength:"+str(len(ASes_init.ASs))+"from model_1 ")
     #F/p0=10000000,F is the budget
-    F=10000000000000000
+    F=glb.F
    
     Ad=select(ASes_init)
     A_d=selectR(ASes_init)

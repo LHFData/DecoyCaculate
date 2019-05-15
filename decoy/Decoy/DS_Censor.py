@@ -51,7 +51,7 @@ class censor:
         com=list(old.keys()-new.keys())
         self.lenchange=dict()
         for c in com:
-           comm=list(old[c].keys()-new[c].keys()) 
+            comm=list(old[c].keys()-new[c].keys()) 
             for cc in comm:
                 temp=dict()
                 temp[cc]=old[c][cc]-new[c][cc]

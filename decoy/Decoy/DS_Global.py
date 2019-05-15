@@ -11,9 +11,12 @@ ChinaASList=list()
 ChinaGeoLoc_Relate=dict()
 EcoRel=dict()
 p0=0.00000001
+F=100000000
 local=""
 censor="China"
-testdic={1:'2',2:'3'}
+decoyPath=list()
+t=5
+Stability=0.8
 def GetPaths():
     return Paths
 def GetG():
@@ -82,6 +85,16 @@ def remove(asn):
 			if asn in value[v]:
 				#global Paths
 				value.pop(v)
+def addDecoyPath(pp):
+	global decoyPath
+	decoyPath.append(pp)
+def getDecoyPath():
+    return decoyPath
+def D(pp,asn):
+	if pp in decoyPath:
+		return 0
+	else:
+		return 1
 def reloaddata(data):
 	print("reload data"+data)
 	if data=="G":
