@@ -41,13 +41,15 @@ class AS:
         self.cost=cost
     def response(self,CGR,P):
         print(self.asn+"is making its decision --from DS_AS.AS.response")
+        self.cleanbenefit=0
+        self.decoybenefit=0
         if len(self.normal_route)!=0:
             for nr in self.normal_route:
                 self.cleanbenefit=self.cleanbenefit+int(CGR[nr[0]]['size'])*int(CGR[nr[-1]]['size'])
-        if len(self.decoy_route)!=0:
-            for dr in self.decoy_route:
+        if len(self.normal_route)!=0:
+            for dr in self.normal_route:
                 self.decoybenefit=self.decoybenefit+int(CGR[dr[0]]['size'])*int(CGR[dr[-1]]['size'])*(1+glb.t)
-        print(self.asn+"cleanbenefit:"+self.cleanbenefit+"decoybenefit:"+self.decoybenefit)
+        print(self.asn+" cleanbenefit:"+str(self.cleanbenefit)+" decoybenefit:"+str(self.decoybenefit))
        # for p in P:
        #     if p!=None:
        #         for pp in p:
@@ -122,6 +124,7 @@ class ASset:
     def initGetEachASResponse(self,CGR,P,decoylist):
         dl=list()
         result=ASset()
+        self.decoyASlist=decoylist
         print("getting response from AS --from DS_AS")
         with open("output/game1Decoy.json","r")as f:
             dl=json.load(f)
@@ -138,9 +141,37 @@ class ASset:
                 result.addAS(a)
                 print("as:"+a.asn+"decide to decoy")
                 self.decoyASlist.append(a.asn)
+                decoylist=self.decoyASlist
             else:
                 a.decoy_flag=False
+        d=dict()
+        for a in self.ASs:
+           dd=dict()
+           dd["decoy"]=a.decoy_route
+           dd["normal"]=a.normal_route
+           d[a.asn]=dd
+       # if not os.access("data/EachRoute.json",os.F_OK):
+        with open("EachASRoute.json","w") as f:
+            json.dump(d,f)
         return result
+    def getEachASResponse(self,CGR,P,decoylist):
+        result=ASset()
+        for a in self.ASs:
+            if not a.asn in self.decoyASlist: 
+                print("building route of as:"+a.asn)
+                a.getDecoy(decoylist)
+                a.response(CGR,P)
+                if a.cleanbenefit<a.decoybenefit:
+                    a.decoy_flag=True
+                    result.addAS(a)
+                    print("as:"+a.asn+"decide to decoy")
+                    self.decoyASlist.append(a.asn)
+                    decoylist=self.decoyASlist
+                else:
+                    a.decoy_flag=False
+            else:
+                print(a.asn+" already in Decoy")
+        return result    
     def getDecoyAS(self):
         l=list()
         for d in self.ASs:
