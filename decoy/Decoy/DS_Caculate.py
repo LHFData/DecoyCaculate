@@ -44,11 +44,11 @@ def Cost_AS(AS,P):
 #input.ASset
 def getRouteOfAS(Paths,ASN):
     result=list()
-    for p in Paths:
-        for pp in p:
-            if ASN in pp:
-                result.append(pp)
-    return copy.deepcopy(result)
+    for p in Paths.keys():
+        for pp in Paths[p].keys():
+            if ASN in Paths[p][pp]:
+                result.append(Paths[p][pp])
+    return result
 def U_ASn(ASlist,AS):
     utility=0
     for key,values in glb.Paths.items():

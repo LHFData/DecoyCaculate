@@ -12,12 +12,14 @@ def select(ASes,cen,CGR,P,decoylist):
 	while True :
 	#get AS react set
 		if flag!=0:
-			decoylist=AdRecord.getDecoyASList()
-		Ad=ASes.getEachASResponse(CGR,P,decoylist)
+			decoylist=ASes.getDecoyASList()
+			Ad=ASes.initGetEachASResponse(CGR,P,decoylist)
+		else:
+			Ad=ASes.getEachResonse(CGR,P,decoylist)
 		if Ad.size>AdRecord.size :
-			ratio=AdRecord.inter(AdRecord).size/Ad.union(AdRecord).size
-		else :
 			ratio=Ad.inter(AdRecord).size/Ad.union(AdRecord).size
+		else :
+			ratio=AdRecord.inter(Ad).size/Ad.union(AdRecord).size
 			Ac=cen.response(ASes.getDecoyAS())
 	# until it's stablity reach our design
 		if ratio<glb.Stabilty:
@@ -25,6 +27,7 @@ def select(ASes,cen,CGR,P,decoylist):
 			return EQ
 		else:
 			AdRecord=Ad
+			#decoylist=ASes.getDecoyASList()
 def refineEQ(ASes,inter,R,CGR,P,decoylist):
 	selected=inter
 	Ad=inter

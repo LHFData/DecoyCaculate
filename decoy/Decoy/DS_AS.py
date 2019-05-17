@@ -23,8 +23,11 @@ class AS:
        # self.benefit()
         #self.routeBuild()
     def routeBuild(self,P):
+        print(self.asn+"getting all route through it--from DS_AS.AS.routeBuild")
         self.normal_route=cac.getRouteOfAS(P,self.asn)
+       # print(self.normal_route)
     def getDecoy(self,decoylist):
+        print(self.asn+"marking its decoy route--from DS_AS.AS.getDecoy")
         for r in self.normal_route:
             for rr in r:
                 if rr in decoylist:
@@ -37,12 +40,14 @@ class AS:
     def cost_set(self,cost):
         self.cost=cost
     def response(self,CGR,P):
+        print(self.asn+"is making its decision --from DS_AS.AS.response")
         if len(self.normal_route)!=0:
             for nr in self.normal_route:
                 self.cleanbenefit=self.cleanbenefit+int(CGR[nr[0]]['size'])*int(CGR[nr[-1]]['size'])
         if len(self.decoy_route)!=0:
             for dr in self.decoy_route:
                 self.decoybenefit=self.decoybenefit+int(CGR[dr[0]]['size'])*int(CGR[dr[-1]]['size'])*(1+glb.t)
+        print(self.asn+"cleanbenefit:"+self.cleanbenefit+"decoybenefit:"+self.decoybenefit)
        # for p in P:
        #     if p!=None:
        #         for pp in p:
@@ -114,12 +119,15 @@ class ASset:
                 a.cost_set(c)
                 self.ASs.append(a)
                 self.size=self.size+1
-    def getEachASResponse(self,CGR,P,decoylist):
+    def initGetEachASResponse(self,CGR,P,decoylist):
         dl=list()
         result=ASset()
+        print("getting response from AS --from DS_AS")
         with open("output/game1Decoy.json","r")as f:
             dl=json.load(f)
+        
         for a in self.ASs:
+            print("building route of as:"+a.asn)
             a.routeBuild(P)
             a.getDecoy(decoylist)
             a.response(CGR,P)
@@ -211,5 +219,16 @@ class ASset:
 if __name__=="__main__":
     glb._init()
     ASS=ASset()
-    ASS.build_init()
-    print(ASS.getASList())
+    ASs=ASset()
+    l=["1","2","3","6"]
+    ll=["2","3","4","6"]
+    for i in l:
+        ASS.addAS(AS(i,32,"China"))
+    for i in ASS.ASs:
+        if int(i.asn)<4:
+            ASs.addAS(i)
+    print("result")
+    print(ASs.inter(ASS).size)
+    
+    #ASS.build_init()
+    #print(ASS.getASList())
