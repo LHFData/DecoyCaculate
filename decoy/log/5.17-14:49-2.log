@@ -8,9 +8,6 @@ loading ChinaGeoLoc_Relate
 load Paths finish
 loading EcoRel
 load EcoRel
-6244from model_1
-984from model_1
-6244from model_1
 len of CGL6244from AS
 init as set....
 strart add init AS--from DS_AS.build_init
@@ -12502,321 +12499,3109 @@ caculating benefit of 64476
 caculating benefit of 64478
 64488
 caculating benefit of 64488
-listlength:6244from model_1 
-add12
-add12
-add24
-add42
-add46
-add47
-add57
-add81
-add101
-add109
-add112
-add137
-add173
-add224
-add226
-add237
-add250
-add260
-add293
-add297
-add376
-add513
-add549
-add553
-add559
-add577
-add668
-add680
-add702
-reload dataPaths
-reload finish
-add 766
-add 1126
-add 1136
-add 1248
-add 1280
-add 1311
-add 1678
-add 1764
-add 1836
-add 1853
-add 1880
-add 2116
-add 2280
-add 2381
-add 2535
-add 2603
-add 2613
-add 2650
-add 2685
-add 2854
-add 3215
-add 3216
-add 3302
-add 3342
-add 3352
-add 3614
-add 4594
-add 4610
-add 5433
-add 5466
-add 5582
-add 5587
-add 5602
-add 5617
-add 6071
-add 6421
-add 6663
-add 6768
-add 6775
-add 6849
-add 6882
-add 7155
-add 7489
-add 7539
-add 7540
-add 7628
-add 8262
-add 8361
-add 8369
-add 8529
-add 8636
-add 8648
-add 8683
-add 8916
-add 8922
-add 9009
-add 9032
-add 9085
-add 9211
-add 9253
-add 9266
-add 9443
-add 9700
-add 9925
-add 10135
-add 10137
-add 11084
-add 12329
-add 12399
-add 12479
-add 12576
-add 12668
-add 12687
-add 13237
-add 15623
-add 15691
-add 15826
-add 15941
-add 15966
-add 16024
-add 16206
-add 16253
-add 17151
-add 17444
-add 17710
-add 17714
-add 17726
-add 17828
-add 18046
-add 18059
-add 18182
-add 18187
-add 19416
-add 19740
-add 19905
-add 20278
-add 20462
-add 20504
-add 20640
-add 20655
-add 20712
-add 20751
-add 20969
-add 21321
-add 21433
-add 22250
-add 22689
-add 23136
-add 23265
-add 24157
-add 24167
-add 24173
-add 24637
-add 24642
-add 24811
-add 24973
-add 25133
-add 25154
-add 25211
-add 25248
-add 25255
-add 25279
-add 25435
-add 25516
-add 25590
-add 27822
-add 28709
-add 28727
-add 28855
-add 28907
-add 28978
-add 29097
-add 29135
-add 29196
-add 29217
-add 29470
-add 29505
-add 29575
-add 29600
-add 29686
-add 30027
-add 30766
-add 30892
-add 31115
-add 31242
-add 31250
-add 31357
-add 31459
-add 31655
-add 31673
-add 32613
-add 33764
-add 34086
-add 34106
-add 34688
-add 34764
-add 34772
-add 34916
-add 34960
-add 35220
-add 35226
-add 35258
-add 35362
-add 35593
-add 35598
-add 35614
-add 36351
-add 37009
-add 37027
-add 37399
-add 37679
-add 39251
-add 39319
-add 39791
-add 39805
-add 39821
-add 39904
-add 39906
-add 39912
-add 39927
-add 41059
-add 41145
-add 41790
-add 41872
-add 42004
-add 42291
-add 42310
-add 42484
-add 42909
-add 43045
-add 43074
-add 43267
-add 43414
-add 43545
-add 43709
-add 43714
-add 44020
-add 44302
-add 44493
-add 44735
-add 45561
-add 45629
-add 47114
-add 47116
-add 47242
-add 47381
-add 47498
-add 47522
-add 47541
-add 47748
-add 47836
-add 47869
-add 47949
-add 47950
-add 48303
-add 48339
-add 48422
-add 48620
-add 48641
-add 48719
-add 49024
-add 49029
-add 49115
-add 49289
-add 49627
-add 49683
-add 49820
-add 49958
-add 49981
-add 50010
-add 50086
-add 50245
-add 50698
-add 50710
-add 50763
-add 50858
-add 51406
-add 51408
-add 51752
-add 51799
-add 51823
-add 52106
-add 52280
-add 54963
-add 56349
-add 56462
-add 56675
-add 56679
-add 57014
-add 57199
-add 57287
-add 57305
-add 57782
-add 58002
-add 58065
-add 58243
-add 58980
-add 59318
-add 59835
-add 59876
-add 59970
-add 59984
-add 59986
-add 60501
-add 61026
-add 61189
-add 61297
-add 61430
-add 62023
-add 62113
-add 62193
-add 62336
-add 63362
-add 64488
-add 703
-add 715
-add 766
-add 786
-add 792
-add 803
-add 812
-add 855
-add 1101
-add 1103
-reload dataPaths
-reload finish
+init result:6244from model_2
+getting response from AS --from DS_AS
+building route of as:2
+2getting all route through it--from DS_AS.AS.routeBuild
+2marking its decoy route--from DS_AS.AS.getDecoy
+2is making its decision --from DS_AS.AS.response
+2 cleanbenefit:17001839322544896 decoybenefit:102011035935269376
+2is c=17001839322544896d=102011035935269376
+as:2decide to decoy
+building route of as:3
+3getting all route through it--from DS_AS.AS.routeBuild
+3marking its decoy route--from DS_AS.AS.getDecoy
+3is making its decision --from DS_AS.AS.response
+3 cleanbenefit:108825251742735624 decoybenefit:652951510456413744
+3is c=108825251742735624d=652951510456413744
+as:3decide to decoy
+building route of as:12
+12getting all route through it--from DS_AS.AS.routeBuild
+12marking its decoy route--from DS_AS.AS.getDecoy
+12is making its decision --from DS_AS.AS.response
+12 cleanbenefit:27095793664 decoybenefit:162574761984
+12is c=27095793664d=162574761984
+as:12decide to decoy
+building route of as:24
+24getting all route through it--from DS_AS.AS.routeBuild
+24marking its decoy route--from DS_AS.AS.getDecoy
+24is making its decision --from DS_AS.AS.response
+24 cleanbenefit:2158238398180868 decoybenefit:12949430389085208
+24is c=2158238398180868d=12949430389085208
+as:24decide to decoy
+building route of as:42
+42getting all route through it--from DS_AS.AS.routeBuild
+42marking its decoy route--from DS_AS.AS.getDecoy
+42is making its decision --from DS_AS.AS.response
+42 cleanbenefit:585897815231381629 decoybenefit:3515386891388289774
+42is c=585897815231381629d=3515386891388289774
+as:42decide to decoy
+building route of as:46
+46getting all route through it--from DS_AS.AS.routeBuild
+46marking its decoy route--from DS_AS.AS.getDecoy
+46is making its decision --from DS_AS.AS.response
+46 cleanbenefit:39261044736 decoybenefit:235566268416
+46is c=39261044736d=235566268416
+as:46decide to decoy
+building route of as:47
+47getting all route through it--from DS_AS.AS.routeBuild
+47marking its decoy route--from DS_AS.AS.getDecoy
+47is making its decision --from DS_AS.AS.response
+47 cleanbenefit:708034557728768 decoybenefit:4248207346372608
+47is c=708034557728768d=4248207346372608
+as:47decide to decoy
+building route of as:57
+57getting all route through it--from DS_AS.AS.routeBuild
+57marking its decoy route--from DS_AS.AS.getDecoy
+57is making its decision --from DS_AS.AS.response
+57 cleanbenefit:21243874504946240 decoybenefit:127463247029677440
+57is c=21243874504946240d=127463247029677440
+as:57decide to decoy
+building route of as:81
+81getting all route through it--from DS_AS.AS.routeBuild
+81marking its decoy route--from DS_AS.AS.getDecoy
+81is making its decision --from DS_AS.AS.response
+81 cleanbenefit:23186879770017920 decoybenefit:139121278620107520
+81is c=23186879770017920d=139121278620107520
+as:81decide to decoy
+building route of as:101
+101getting all route through it--from DS_AS.AS.routeBuild
+101marking its decoy route--from DS_AS.AS.getDecoy
+101is making its decision --from DS_AS.AS.response
+101 cleanbenefit:147759431622972671 decoybenefit:886556589737836026
+101is c=147759431622972671d=886556589737836026
+as:101decide to decoy
+building route of as:109
+109getting all route through it--from DS_AS.AS.routeBuild
+109marking its decoy route--from DS_AS.AS.getDecoy
+109is making its decision --from DS_AS.AS.response
+109 cleanbenefit:6153265823318528 decoybenefit:36919594939911168
+109is c=6153265823318528d=36919594939911168
+as:109decide to decoy
+building route of as:112
+112getting all route through it--from DS_AS.AS.routeBuild
+112marking its decoy route--from DS_AS.AS.getDecoy
+112is making its decision --from DS_AS.AS.response
+112 cleanbenefit:866061944313797 decoybenefit:5196371665882782
+112is c=866061944313797d=5196371665882782
+as:112decide to decoy
+building route of as:137
+137getting all route through it--from DS_AS.AS.routeBuild
+137marking its decoy route--from DS_AS.AS.getDecoy
+137is making its decision --from DS_AS.AS.response
+137 cleanbenefit:32605602645844090 decoybenefit:195633615875064540
+137is c=32605602645844090d=195633615875064540
+as:137decide to decoy
+building route of as:173
+173getting all route through it--from DS_AS.AS.routeBuild
+173marking its decoy route--from DS_AS.AS.getDecoy
+173is making its decision --from DS_AS.AS.response
+173 cleanbenefit:531855566718208 decoybenefit:3191133400309248
+173is c=531855566718208d=3191133400309248
+as:173decide to decoy
+building route of as:224
+224getting all route through it--from DS_AS.AS.routeBuild
+224marking its decoy route--from DS_AS.AS.getDecoy
+224is making its decision --from DS_AS.AS.response
+224 cleanbenefit:13395008171866624 decoybenefit:80370049031199744
+224is c=13395008171866624d=80370049031199744
+as:224decide to decoy
+building route of as:226
+226getting all route through it--from DS_AS.AS.routeBuild
+226marking its decoy route--from DS_AS.AS.getDecoy
+226is making its decision --from DS_AS.AS.response
+226 cleanbenefit:14844830710225744 decoybenefit:89068984261354464
+226is c=14844830710225744d=89068984261354464
+as:226decide to decoy
+building route of as:237
+237getting all route through it--from DS_AS.AS.routeBuild
+237marking its decoy route--from DS_AS.AS.getDecoy
+237is making its decision --from DS_AS.AS.response
+237 cleanbenefit:74521654072707743 decoybenefit:447129924436246458
+237is c=74521654072707743d=447129924436246458
+as:237decide to decoy
+building route of as:250
+250getting all route through it--from DS_AS.AS.routeBuild
+250marking its decoy route--from DS_AS.AS.getDecoy
+250is making its decision --from DS_AS.AS.response
+250 cleanbenefit:18896817825536 decoybenefit:113380906953216
+250is c=18896817825536d=113380906953216
+as:250decide to decoy
+building route of as:260
+260getting all route through it--from DS_AS.AS.routeBuild
+260marking its decoy route--from DS_AS.AS.getDecoy
+260is making its decision --from DS_AS.AS.response
+260 cleanbenefit:6167919632218624 decoybenefit:37007517793311744
+260is c=6167919632218624d=37007517793311744
+as:260decide to decoy
+building route of as:293
+293getting all route through it--from DS_AS.AS.routeBuild
+293marking its decoy route--from DS_AS.AS.getDecoy
+293is making its decision --from DS_AS.AS.response
+293 cleanbenefit:952242231836229314 decoybenefit:5713453391017375884
+293is c=952242231836229314d=5713453391017375884
+as:293decide to decoy
+building route of as:297
+297getting all route through it--from DS_AS.AS.routeBuild
+297marking its decoy route--from DS_AS.AS.getDecoy
+297is making its decision --from DS_AS.AS.response
+297 cleanbenefit:28648337007886964 decoybenefit:171890022047321784
+297is c=28648337007886964d=171890022047321784
+as:297decide to decoy
+building route of as:376
+376getting all route through it--from DS_AS.AS.routeBuild
+376marking its decoy route--from DS_AS.AS.getDecoy
+376is making its decision --from DS_AS.AS.response
+376 cleanbenefit:29945121945320101 decoybenefit:179670731671920606
+376is c=29945121945320101d=179670731671920606
+as:376decide to decoy
+building route of as:513
+513getting all route through it--from DS_AS.AS.routeBuild
+513marking its decoy route--from DS_AS.AS.getDecoy
+513is making its decision --from DS_AS.AS.response
+513 cleanbenefit:35637758826133959 decoybenefit:213826552956803754
+513is c=35637758826133959d=213826552956803754
+as:513decide to decoy
+building route of as:549
+549getting all route through it--from DS_AS.AS.routeBuild
+549marking its decoy route--from DS_AS.AS.getDecoy
+549is making its decision --from DS_AS.AS.response
+549 cleanbenefit:8035128143139840 decoybenefit:48210768858839040
+549is c=8035128143139840d=48210768858839040
+as:549decide to decoy
+building route of as:553
+553getting all route through it--from DS_AS.AS.routeBuild
+553marking its decoy route--from DS_AS.AS.getDecoy
+553is making its decision --from DS_AS.AS.response
+553 cleanbenefit:1520919791592531035 decoybenefit:9125518749555186210
+553is c=1520919791592531035d=9125518749555186210
+as:553decide to decoy
+building route of as:559
+559getting all route through it--from DS_AS.AS.routeBuild
+559marking its decoy route--from DS_AS.AS.getDecoy
+559is making its decision --from DS_AS.AS.response
+559 cleanbenefit:109876889523257817 decoybenefit:659261337139546902
+559is c=109876889523257817d=659261337139546902
+as:559decide to decoy
+building route of as:577
+577getting all route through it--from DS_AS.AS.routeBuild
+577marking its decoy route--from DS_AS.AS.getDecoy
+577is making its decision --from DS_AS.AS.response
+577 cleanbenefit:708047176563537345 decoybenefit:4248283059381224070
+577is c=708047176563537345d=4248283059381224070
+as:577decide to decoy
+building route of as:668
+668getting all route through it--from DS_AS.AS.routeBuild
+668marking its decoy route--from DS_AS.AS.getDecoy
+668is making its decision --from DS_AS.AS.response
+668 cleanbenefit:40481040793567248 decoybenefit:242886244761403488
+668is c=40481040793567248d=242886244761403488
+as:668decide to decoy
+building route of as:680
+680getting all route through it--from DS_AS.AS.routeBuild
+680marking its decoy route--from DS_AS.AS.getDecoy
+680is making its decision --from DS_AS.AS.response
+680 cleanbenefit:232320644709167437 decoybenefit:1393923868255004622
+680is c=232320644709167437d=1393923868255004622
+as:680decide to decoy
+building route of as:702
+702getting all route through it--from DS_AS.AS.routeBuild
+702marking its decoy route--from DS_AS.AS.getDecoy
+702is making its decision --from DS_AS.AS.response
+702 cleanbenefit:334249459842580496 decoybenefit:2005496759055482976
+702is c=334249459842580496d=2005496759055482976
+as:702decide to decoy
+building route of as:703
+703getting all route through it--from DS_AS.AS.routeBuild
+703marking its decoy route--from DS_AS.AS.getDecoy
+703is making its decision --from DS_AS.AS.response
+703 cleanbenefit:141530233353745415 decoybenefit:849181400122472490
+703is c=141530233353745415d=849181400122472490
+as:703decide to decoy
+building route of as:715
+715getting all route through it--from DS_AS.AS.routeBuild
+715marking its decoy route--from DS_AS.AS.getDecoy
+715is making its decision --from DS_AS.AS.response
+715 cleanbenefit:441841771322880 decoybenefit:2651050627937280
+715is c=441841771322880d=2651050627937280
+as:715decide to decoy
+building route of as:719
+719getting all route through it--from DS_AS.AS.routeBuild
+719marking its decoy route--from DS_AS.AS.getDecoy
+719is making its decision --from DS_AS.AS.response
+719 cleanbenefit:24027814619032448 decoybenefit:144166887714194688
+719is c=24027814619032448d=144166887714194688
+as:719decide to decoy
+building route of as:766
+766getting all route through it--from DS_AS.AS.routeBuild
+766marking its decoy route--from DS_AS.AS.getDecoy
+766is making its decision --from DS_AS.AS.response
+766 cleanbenefit:24758077518993320 decoybenefit:148548465113959920
+766is c=24758077518993320d=148548465113959920
+as:766decide to decoy
+building route of as:786
+786getting all route through it--from DS_AS.AS.routeBuild
+786marking its decoy route--from DS_AS.AS.getDecoy
+786is making its decision --from DS_AS.AS.response
+786 cleanbenefit:100653890783685821 decoybenefit:603923344702114926
+786is c=100653890783685821d=603923344702114926
+as:786decide to decoy
+building route of as:792
+792getting all route through it--from DS_AS.AS.routeBuild
+792marking its decoy route--from DS_AS.AS.getDecoy
+792is making its decision --from DS_AS.AS.response
+792 cleanbenefit:70203801600 decoybenefit:421222809600
+792is c=70203801600d=421222809600
+as:792decide to decoy
+building route of as:803
+803getting all route through it--from DS_AS.AS.routeBuild
+803marking its decoy route--from DS_AS.AS.getDecoy
+803is making its decision --from DS_AS.AS.response
+803 cleanbenefit:10956497900125916 decoybenefit:65738987400755496
+803is c=10956497900125916d=65738987400755496
+as:803decide to decoy
+building route of as:812
+812getting all route through it--from DS_AS.AS.routeBuild
+812marking its decoy route--from DS_AS.AS.getDecoy
+812is making its decision --from DS_AS.AS.response
+812 cleanbenefit:114549261831181872 decoybenefit:687295570987091232
+812is c=114549261831181872d=687295570987091232
+as:812decide to decoy
+building route of as:855
+855getting all route through it--from DS_AS.AS.routeBuild
+855marking its decoy route--from DS_AS.AS.getDecoy
+855is making its decision --from DS_AS.AS.response
+855 cleanbenefit:34711204858917408 decoybenefit:208267229153504448
+855is c=34711204858917408d=208267229153504448
+as:855decide to decoy
+building route of as:1101
+1101getting all route through it--from DS_AS.AS.routeBuild
+1101marking its decoy route--from DS_AS.AS.getDecoy
+1101is making its decision --from DS_AS.AS.response
+1101 cleanbenefit:20132974006581036 decoybenefit:120797844039486216
+1101is c=20132974006581036d=120797844039486216
+as:1101decide to decoy
+building route of as:1103
+1103getting all route through it--from DS_AS.AS.routeBuild
+1103marking its decoy route--from DS_AS.AS.getDecoy
+1103is making its decision --from DS_AS.AS.response
+1103 cleanbenefit:1728634158711535572 decoybenefit:10371804952269213432
+1103is c=1728634158711535572d=10371804952269213432
+as:1103decide to decoy
+building route of as:1120
+1120getting all route through it--from DS_AS.AS.routeBuild
+1120marking its decoy route--from DS_AS.AS.getDecoy
+1120is making its decision --from DS_AS.AS.response
+1120 cleanbenefit:10966903984400 decoybenefit:65801423906400
+1120is c=10966903984400d=65801423906400
+as:1120decide to decoy
+building route of as:1126
+1126getting all route through it--from DS_AS.AS.routeBuild
+1126marking its decoy route--from DS_AS.AS.getDecoy
+1126is making its decision --from DS_AS.AS.response
+1126 cleanbenefit:5772122358072896 decoybenefit:34632734148437376
+1126is c=5772122358072896d=34632734148437376
+as:1126decide to decoy
+building route of as:1136
+1136getting all route through it--from DS_AS.AS.routeBuild
+1136marking its decoy route--from DS_AS.AS.getDecoy
+1136is making its decision --from DS_AS.AS.response
+1136 cleanbenefit:90610959508094816 decoybenefit:543665757048568896
+1136is c=90610959508094816d=543665757048568896
+as:1136decide to decoy
+building route of as:1140
+1140getting all route through it--from DS_AS.AS.routeBuild
+1140marking its decoy route--from DS_AS.AS.getDecoy
+1140is making its decision --from DS_AS.AS.response
+1140 cleanbenefit:60454589179256 decoybenefit:362727535075536
+1140is c=60454589179256d=362727535075536
+as:1140decide to decoy
+building route of as:1213
+1213getting all route through it--from DS_AS.AS.routeBuild
+1213marking its decoy route--from DS_AS.AS.getDecoy
+1213is making its decision --from DS_AS.AS.response
+1213 cleanbenefit:23143727500550144 decoybenefit:138862365003300864
+1213is c=23143727500550144d=138862365003300864
+as:1213decide to decoy
+building route of as:1215
+1215getting all route through it--from DS_AS.AS.routeBuild
+1215marking its decoy route--from DS_AS.AS.getDecoy
+1215is making its decision --from DS_AS.AS.response
+1215 cleanbenefit:462422016 decoybenefit:2774532096
+1215is c=462422016d=2774532096
+as:1215decide to decoy
+building route of as:1216
+1216getting all route through it--from DS_AS.AS.routeBuild
+1216marking its decoy route--from DS_AS.AS.getDecoy
+1216is making its decision --from DS_AS.AS.response
+1216 cleanbenefit:65536 decoybenefit:393216
+1216is c=65536d=393216
+as:1216decide to decoy
+building route of as:1217
+1217getting all route through it--from DS_AS.AS.routeBuild
+1217marking its decoy route--from DS_AS.AS.getDecoy
+1217is making its decision --from DS_AS.AS.response
+1217 cleanbenefit:97285058334720 decoybenefit:583710350008320
+1217is c=97285058334720d=583710350008320
+as:1217decide to decoy
+building route of as:1219
+1219getting all route through it--from DS_AS.AS.routeBuild
+1219marking its decoy route--from DS_AS.AS.getDecoy
+1219is making its decision --from DS_AS.AS.response
+1219 cleanbenefit:65536 decoybenefit:393216
+1219is c=65536d=393216
+as:1219decide to decoy
+building route of as:1221
+1221getting all route through it--from DS_AS.AS.routeBuild
+1221marking its decoy route--from DS_AS.AS.getDecoy
+1221is making its decision --from DS_AS.AS.response
+1221 cleanbenefit:1548893403734486324 decoybenefit:9293360422406917944
+1221is c=1548893403734486324d=9293360422406917944
+as:1221decide to decoy
+building route of as:1226
+1226getting all route through it--from DS_AS.AS.routeBuild
+1226marking its decoy route--from DS_AS.AS.getDecoy
+1226is making its decision --from DS_AS.AS.response
+1226 cleanbenefit:12923923180041216 decoybenefit:77543539080247296
+1226is c=12923923180041216d=77543539080247296
+as:1226decide to decoy
+building route of as:1239
+1239getting all route through it--from DS_AS.AS.routeBuild
+1239marking its decoy route--from DS_AS.AS.getDecoy
+1239is making its decision --from DS_AS.AS.response
+1239 cleanbenefit:4526476614827845411 decoybenefit:27158859688967072466
+1239is c=4526476614827845411d=27158859688967072466
+as:1239decide to decoy
+building route of as:1241
+1241getting all route through it--from DS_AS.AS.routeBuild
+1241marking its decoy route--from DS_AS.AS.getDecoy
+1241is making its decision --from DS_AS.AS.response
+1241 cleanbenefit:8075321613783228 decoybenefit:48451929682699368
+1241is c=8075321613783228d=48451929682699368
+as:1241decide to decoy
+building route of as:1248
+1248getting all route through it--from DS_AS.AS.routeBuild
+1248marking its decoy route--from DS_AS.AS.getDecoy
+1248is making its decision --from DS_AS.AS.response
+1248 cleanbenefit:111736602346212858 decoybenefit:670419614077277148
+1248is c=111736602346212858d=670419614077277148
+as:1248decide to decoy
+building route of as:1251
+1251getting all route through it--from DS_AS.AS.routeBuild
+1251marking its decoy route--from DS_AS.AS.getDecoy
+1251is making its decision --from DS_AS.AS.response
+1251 cleanbenefit:9058888158628537 decoybenefit:54353328951771222
+1251is c=9058888158628537d=54353328951771222
+as:1251decide to decoy
+building route of as:1267
+1267getting all route through it--from DS_AS.AS.routeBuild
+1267marking its decoy route--from DS_AS.AS.getDecoy
+1267is making its decision --from DS_AS.AS.response
+1267 cleanbenefit:641432441732858091 decoybenefit:3848594650397148546
+1267is c=641432441732858091d=3848594650397148546
+as:1267decide to decoy
+building route of as:1280
+1280getting all route through it--from DS_AS.AS.routeBuild
+1280marking its decoy route--from DS_AS.AS.getDecoy
+1280is making its decision --from DS_AS.AS.response
+1280 cleanbenefit:333548193824805854 decoybenefit:2001289162948835124
+1280is c=333548193824805854d=2001289162948835124
+as:1280decide to decoy
+building route of as:1290
+1290getting all route through it--from DS_AS.AS.routeBuild
+1290marking its decoy route--from DS_AS.AS.getDecoy
+1290is making its decision --from DS_AS.AS.response
+1290 cleanbenefit:13726655399386496 decoybenefit:82359932396318976
+1290is c=13726655399386496d=82359932396318976
+as:1290decide to decoy
+building route of as:1311
+1311getting all route through it--from DS_AS.AS.routeBuild
+1311marking its decoy route--from DS_AS.AS.getDecoy
+1311is making its decision --from DS_AS.AS.response
+1311 cleanbenefit:8107062242304 decoybenefit:48642373453824
+1311is c=8107062242304d=48642373453824
+as:1311decide to decoy
+building route of as:1341
+1341getting all route through it--from DS_AS.AS.routeBuild
+1341marking its decoy route--from DS_AS.AS.getDecoy
+1341is making its decision --from DS_AS.AS.response
+1341 cleanbenefit:18618056704 decoybenefit:111708340224
+1341is c=18618056704d=111708340224
+as:1341decide to decoy
+building route of as:1403
+1403getting all route through it--from DS_AS.AS.routeBuild
+1403marking its decoy route--from DS_AS.AS.getDecoy
+1403is making its decision --from DS_AS.AS.response
+1403 cleanbenefit:84587602980439958 decoybenefit:507525617882639748
+1403is c=84587602980439958d=507525617882639748
+as:1403decide to decoy
+building route of as:1421
+1421getting all route through it--from DS_AS.AS.routeBuild
+1421marking its decoy route--from DS_AS.AS.getDecoy
+1421is making its decision --from DS_AS.AS.response
+1421 cleanbenefit:1012267382035968 decoybenefit:6073604292215808
+1421is c=1012267382035968d=6073604292215808
+as:1421decide to decoy
+building route of as:1449
+1449getting all route through it--from DS_AS.AS.routeBuild
+1449marking its decoy route--from DS_AS.AS.getDecoy
+1449is making its decision --from DS_AS.AS.response
+1449 cleanbenefit:10809417371648 decoybenefit:64856504229888
+1449is c=10809417371648d=64856504229888
+as:1449decide to decoy
+building route of as:1547
+1547getting all route through it--from DS_AS.AS.routeBuild
+1547marking its decoy route--from DS_AS.AS.getDecoy
+1547is making its decision --from DS_AS.AS.response
+1547 cleanbenefit:7973360844024003 decoybenefit:47840165064144018
+1547is c=7973360844024003d=47840165064144018
+as:1547decide to decoy
+building route of as:1605
+1605getting all route through it--from DS_AS.AS.routeBuild
+1605marking its decoy route--from DS_AS.AS.getDecoy
+1605is making its decision --from DS_AS.AS.response
+1605 cleanbenefit:6755884874240 decoybenefit:40535309245440
+1605is c=6755884874240d=40535309245440
+as:1605decide to decoy
+building route of as:1653
+1653getting all route through it--from DS_AS.AS.routeBuild
+1653marking its decoy route--from DS_AS.AS.getDecoy
+1653is making its decision --from DS_AS.AS.response
+1653 cleanbenefit:11610964363690688 decoybenefit:69665786182144128
+1653is c=11610964363690688d=69665786182144128
+as:1653decide to decoy
+building route of as:1678
+1678getting all route through it--from DS_AS.AS.routeBuild
+1678marking its decoy route--from DS_AS.AS.getDecoy
+1678is making its decision --from DS_AS.AS.response
+1678 cleanbenefit:60803081832960 decoybenefit:364818490997760
+1678is c=60803081832960d=364818490997760
+as:1678decide to decoy
+building route of as:1680
+1680getting all route through it--from DS_AS.AS.routeBuild
+1680marking its decoy route--from DS_AS.AS.getDecoy
+1680is making its decision --from DS_AS.AS.response
+1680 cleanbenefit:105270354373193880 decoybenefit:631622126239163280
+1680is c=105270354373193880d=631622126239163280
+as:1680decide to decoy
+building route of as:1741
+1741getting all route through it--from DS_AS.AS.routeBuild
+1741marking its decoy route--from DS_AS.AS.getDecoy
+1741is making its decision --from DS_AS.AS.response
+1741 cleanbenefit:10936135714596096 decoybenefit:65616814287576576
+1741is c=10936135714596096d=65616814287576576
+as:1741decide to decoy
+building route of as:1759
+1759getting all route through it--from DS_AS.AS.routeBuild
+1759marking its decoy route--from DS_AS.AS.getDecoy
+1759is making its decision --from DS_AS.AS.response
+1759 cleanbenefit:22101845568544128 decoybenefit:132611073411264768
+1759is c=22101845568544128d=132611073411264768
+as:1759decide to decoy
+building route of as:1764
+1764getting all route through it--from DS_AS.AS.routeBuild
+1764marking its decoy route--from DS_AS.AS.getDecoy
+1764is making its decision --from DS_AS.AS.response
+1764 cleanbenefit:72771648725144369 decoybenefit:436629892350866214
+1764is c=72771648725144369d=436629892350866214
+as:1764decide to decoy
+building route of as:1766
+1766getting all route through it--from DS_AS.AS.routeBuild
+1766marking its decoy route--from DS_AS.AS.getDecoy
+1766is making its decision --from DS_AS.AS.response
+1766 cleanbenefit:3580220142430832 decoybenefit:21481320854584992
+1766is c=3580220142430832d=21481320854584992
+as:1766decide to decoy
+building route of as:1798
+1798getting all route through it--from DS_AS.AS.routeBuild
+1798marking its decoy route--from DS_AS.AS.getDecoy
+1798is making its decision --from DS_AS.AS.response
+1798 cleanbenefit:367066516284224093 decoybenefit:2202399097705344558
+1798is c=367066516284224093d=2202399097705344558
+as:1798decide to decoy
+building route of as:1823
+1823getting all route through it--from DS_AS.AS.routeBuild
+1823marking its decoy route--from DS_AS.AS.getDecoy
+1823is making its decision --from DS_AS.AS.response
+1823 cleanbenefit:5404707637248 decoybenefit:32428245823488
+1823is c=5404707637248d=32428245823488
+as:1823decide to decoy
+building route of as:1828
+1828getting all route through it--from DS_AS.AS.routeBuild
+1828marking its decoy route--from DS_AS.AS.getDecoy
+1828is making its decision --from DS_AS.AS.response
+1828 cleanbenefit:12923073539829528 decoybenefit:77538441238977168
+1828is c=12923073539829528d=77538441238977168
+as:1828decide to decoy
+building route of as:1835
+1835getting all route through it--from DS_AS.AS.routeBuild
+1835marking its decoy route--from DS_AS.AS.getDecoy
+1835is making its decision --from DS_AS.AS.response
+1835 cleanbenefit:1956313468194280 decoybenefit:11737880809165680
+1835is c=1956313468194280d=11737880809165680
+as:1835decide to decoy
+building route of as:1836
+1836getting all route through it--from DS_AS.AS.routeBuild
+1836marking its decoy route--from DS_AS.AS.getDecoy
+1836is making its decision --from DS_AS.AS.response
+1836 cleanbenefit:39583775008884761 decoybenefit:237502650053308566
+1836is c=39583775008884761d=237502650053308566
+as:1836decide to decoy
+building route of as:1853
+1853getting all route through it--from DS_AS.AS.routeBuild
+1853marking its decoy route--from DS_AS.AS.getDecoy
+1853is making its decision --from DS_AS.AS.response
+1853 cleanbenefit:43874141573998048 decoybenefit:263244849443988288
+1853is c=43874141573998048d=263244849443988288
+as:1853decide to decoy
+building route of as:1880
+1880getting all route through it--from DS_AS.AS.routeBuild
+1880marking its decoy route--from DS_AS.AS.getDecoy
+1880is making its decision --from DS_AS.AS.response
+1880 cleanbenefit:81073508182186016 decoybenefit:486441049093116096
+1880is c=81073508182186016d=486441049093116096
+as:1880decide to decoy
+building route of as:1886
+1886getting all route through it--from DS_AS.AS.routeBuild
+1886marking its decoy route--from DS_AS.AS.getDecoy
+1886is making its decision --from DS_AS.AS.response
+1886 cleanbenefit:64789062948864 decoybenefit:388734377693184
+1886is c=64789062948864d=388734377693184
+as:1886decide to decoy
+building route of as:1916
+1916getting all route through it--from DS_AS.AS.routeBuild
+1916marking its decoy route--from DS_AS.AS.getDecoy
+1916is making its decision --from DS_AS.AS.response
+1916 cleanbenefit:1067827133743406179 decoybenefit:6406962802460437074
+1916is c=1067827133743406179d=6406962802460437074
+as:1916decide to decoy
+building route of as:1921
+1921getting all route through it--from DS_AS.AS.routeBuild
+1921marking its decoy route--from DS_AS.AS.getDecoy
+1921is making its decision --from DS_AS.AS.response
+1921 cleanbenefit:138191073937472 decoybenefit:829146443624832
+1921is c=138191073937472d=829146443624832
+as:1921decide to decoy
+building route of as:1930
+1930getting all route through it--from DS_AS.AS.routeBuild
+1930marking its decoy route--from DS_AS.AS.getDecoy
+1930is making its decision --from DS_AS.AS.response
+1930 cleanbenefit:4410966032777216 decoybenefit:26465796196663296
+1930is c=4410966032777216d=26465796196663296
+as:1930decide to decoy
+building route of as:1955
+1955getting all route through it--from DS_AS.AS.routeBuild
+1955marking its decoy route--from DS_AS.AS.getDecoy
+1955is making its decision --from DS_AS.AS.response
+1955 cleanbenefit:10335184815147008 decoybenefit:62011108890882048
+1955is c=10335184815147008d=62011108890882048
+as:1955decide to decoy
+building route of as:1982
+1982getting all route through it--from DS_AS.AS.routeBuild
+1982marking its decoy route--from DS_AS.AS.getDecoy
+1982is making its decision --from DS_AS.AS.response
+1982 cleanbenefit:7786953895124981 decoybenefit:46721723370749886
+1982is c=7786953895124981d=46721723370749886
+as:1982decide to decoy
+building route of as:2018
+2018getting all route through it--from DS_AS.AS.routeBuild
+2018marking its decoy route--from DS_AS.AS.getDecoy
+2018is making its decision --from DS_AS.AS.response
+2018 cleanbenefit:103961170206957152 decoybenefit:623767021241742912
+2018is c=103961170206957152d=623767021241742912
+as:2018decide to decoy
+building route of as:2044
+2044getting all route through it--from DS_AS.AS.routeBuild
+2044marking its decoy route--from DS_AS.AS.getDecoy
+2044is making its decision --from DS_AS.AS.response
+2044 cleanbenefit:14507958361123481 decoybenefit:87047750166740886
+2044is c=14507958361123481d=87047750166740886
+as:2044decide to decoy
+building route of as:2047
+2047getting all route through it--from DS_AS.AS.routeBuild
+2047marking its decoy route--from DS_AS.AS.getDecoy
+2047is making its decision --from DS_AS.AS.response
+2047 cleanbenefit:2253398481115904 decoybenefit:13520390886695424
+2047is c=2253398481115904d=13520390886695424
+as:2047decide to decoy
+building route of as:2108
+2108getting all route through it--from DS_AS.AS.routeBuild
+2108marking its decoy route--from DS_AS.AS.getDecoy
+2108is making its decision --from DS_AS.AS.response
+2108 cleanbenefit:2448434184071936 decoybenefit:14690605104431616
+2108is c=2448434184071936d=14690605104431616
+as:2108decide to decoy
+building route of as:2110
+2110getting all route through it--from DS_AS.AS.routeBuild
+2110marking its decoy route--from DS_AS.AS.getDecoy
+2110is making its decision --from DS_AS.AS.response
+2110 cleanbenefit:9128327279454408 decoybenefit:54769963676726448
+2110is c=9128327279454408d=54769963676726448
+as:2110decide to decoy
+building route of as:2116
+2116getting all route through it--from DS_AS.AS.routeBuild
+2116marking its decoy route--from DS_AS.AS.getDecoy
+2116is making its decision --from DS_AS.AS.response
+2116 cleanbenefit:27524463066591744 decoybenefit:165146778399550464
+2116is c=27524463066591744d=165146778399550464
+as:2116decide to decoy
+building route of as:2128
+2128getting all route through it--from DS_AS.AS.routeBuild
+2128marking its decoy route--from DS_AS.AS.getDecoy
+2128is making its decision --from DS_AS.AS.response
+2128 cleanbenefit:154660561875824 decoybenefit:927963371254944
+2128is c=154660561875824d=927963371254944
+as:2128decide to decoy
+building route of as:2134
+2134getting all route through it--from DS_AS.AS.routeBuild
+2134marking its decoy route--from DS_AS.AS.getDecoy
+2134is making its decision --from DS_AS.AS.response
+2134 cleanbenefit:118677675768972689 decoybenefit:712066054613836134
+2134is c=118677675768972689d=712066054613836134
+as:2134decide to decoy
+building route of as:2152
+2152getting all route through it--from DS_AS.AS.routeBuild
+2152marking its decoy route--from DS_AS.AS.getDecoy
+2152is making its decision --from DS_AS.AS.response
+2152 cleanbenefit:285738782487028852 decoybenefit:1714432694922173112
+2152is c=285738782487028852d=1714432694922173112
+as:2152decide to decoy
+building route of as:2153
+2153getting all route through it--from DS_AS.AS.routeBuild
+2153marking its decoy route--from DS_AS.AS.getDecoy
+2153is making its decision --from DS_AS.AS.response
+2153 cleanbenefit:288848637798972512 decoybenefit:1733091826793835072
+2153is c=288848637798972512d=1733091826793835072
+as:2153decide to decoy
+building route of as:2200
+2200getting all route through it--from DS_AS.AS.routeBuild
+2200marking its decoy route--from DS_AS.AS.getDecoy
+2200is making its decision --from DS_AS.AS.response
+2200 cleanbenefit:53531344355970670 decoybenefit:321188066135824020
+2200is c=53531344355970670d=321188066135824020
+as:2200decide to decoy
+building route of as:2280
+2280getting all route through it--from DS_AS.AS.routeBuild
+2280marking its decoy route--from DS_AS.AS.getDecoy
+2280is making its decision --from DS_AS.AS.response
+2280 cleanbenefit:89084942090496 decoybenefit:534509652542976
+2280is c=89084942090496d=534509652542976
+as:2280decide to decoy
+building route of as:2381
+2381getting all route through it--from DS_AS.AS.routeBuild
+2381marking its decoy route--from DS_AS.AS.getDecoy
+2381is making its decision --from DS_AS.AS.response
+2381 cleanbenefit:238882004097666751 decoybenefit:1433292024586000506
+2381is c=238882004097666751d=1433292024586000506
+as:2381decide to decoy
+building route of as:2386
+2386getting all route through it--from DS_AS.AS.routeBuild
+2386marking its decoy route--from DS_AS.AS.getDecoy
+2386is making its decision --from DS_AS.AS.response
+2386 cleanbenefit:2959391174507520 decoybenefit:17756347047045120
+2386is c=2959391174507520d=17756347047045120
+as:2386decide to decoy
+building route of as:2484
+2484getting all route through it--from DS_AS.AS.routeBuild
+2484marking its decoy route--from DS_AS.AS.getDecoy
+2484is making its decision --from DS_AS.AS.response
+2484 cleanbenefit:9799613109778070 decoybenefit:58797678658668420
+2484is c=9799613109778070d=58797678658668420
+as:2484decide to decoy
+building route of as:2486
+2486getting all route through it--from DS_AS.AS.routeBuild
+2486marking its decoy route--from DS_AS.AS.getDecoy
+2486is making its decision --from DS_AS.AS.response
+2486 cleanbenefit:7409971620123912 decoybenefit:44459829720743472
+2486is c=7409971620123912d=44459829720743472
+as:2486decide to decoy
+building route of as:2500
+2500getting all route through it--from DS_AS.AS.routeBuild
+2500marking its decoy route--from DS_AS.AS.getDecoy
+2500is making its decision --from DS_AS.AS.response
+2500 cleanbenefit:9579212066615912 decoybenefit:57475272399695472
+2500is c=9579212066615912d=57475272399695472
+as:2500decide to decoy
+building route of as:2510
+2510getting all route through it--from DS_AS.AS.routeBuild
+2510marking its decoy route--from DS_AS.AS.getDecoy
+2510is making its decision --from DS_AS.AS.response
+2510 cleanbenefit:70606003150374097 decoybenefit:423636018902244582
+2510is c=70606003150374097d=423636018902244582
+as:2510decide to decoy
+building route of as:2514
+2514getting all route through it--from DS_AS.AS.routeBuild
+2514marking its decoy route--from DS_AS.AS.getDecoy
+2514is making its decision --from DS_AS.AS.response
+2514 cleanbenefit:50485754119257600 decoybenefit:302914524715545600
+2514is c=50485754119257600d=302914524715545600
+as:2514decide to decoy
+building route of as:2515
+2515getting all route through it--from DS_AS.AS.routeBuild
+2515marking its decoy route--from DS_AS.AS.getDecoy
+2515is making its decision --from DS_AS.AS.response
+2515 cleanbenefit:611374415563776 decoybenefit:3668246493382656
+2515is c=611374415563776d=3668246493382656
+as:2515decide to decoy
+building route of as:2518
+2518getting all route through it--from DS_AS.AS.routeBuild
+2518marking its decoy route--from DS_AS.AS.getDecoy
+2518is making its decision --from DS_AS.AS.response
+2518 cleanbenefit:224341486232366559 decoybenefit:1346048917394199354
+2518is c=224341486232366559d=1346048917394199354
+as:2518decide to decoy
+building route of as:2519
+2519getting all route through it--from DS_AS.AS.routeBuild
+2519marking its decoy route--from DS_AS.AS.getDecoy
+2519is making its decision --from DS_AS.AS.response
+2519 cleanbenefit:136128911909932032 decoybenefit:816773471459592192
+2519is c=136128911909932032d=816773471459592192
+as:2519decide to decoy
+building route of as:2526
+2526getting all route through it--from DS_AS.AS.routeBuild
+2526marking its decoy route--from DS_AS.AS.getDecoy
+2526is making its decision --from DS_AS.AS.response
+2526 cleanbenefit:712675540076544 decoybenefit:4276053240459264
+2526is c=712675540076544d=4276053240459264
+as:2526decide to decoy
+building route of as:2527
+2527getting all route through it--from DS_AS.AS.routeBuild
+2527marking its decoy route--from DS_AS.AS.getDecoy
+2527is making its decision --from DS_AS.AS.response
+2527 cleanbenefit:39121434058993664 decoybenefit:234728604353961984
+2527is c=39121434058993664d=234728604353961984
+as:2527decide to decoy
+building route of as:2529
+2529getting all route through it--from DS_AS.AS.routeBuild
+2529marking its decoy route--from DS_AS.AS.getDecoy
+2529is making its decision --from DS_AS.AS.response
+2529 cleanbenefit:14417317100600576 decoybenefit:86503902603603456
+2529is c=14417317100600576d=86503902603603456
+as:2529decide to decoy
+building route of as:2535
+2535getting all route through it--from DS_AS.AS.routeBuild
+2535marking its decoy route--from DS_AS.AS.getDecoy
+2535is making its decision --from DS_AS.AS.response
+2535 cleanbenefit:5972215479023349 decoybenefit:35833292874140094
+2535is c=5972215479023349d=35833292874140094
+as:2535decide to decoy
+building route of as:2544
+2544getting all route through it--from DS_AS.AS.routeBuild
+2544marking its decoy route--from DS_AS.AS.getDecoy
+2544is making its decision --from DS_AS.AS.response
+2544 cleanbenefit:2178490830702336 decoybenefit:13070944984214016
+2544is c=2178490830702336d=13070944984214016
+as:2544decide to decoy
+building route of as:2572
+2572getting all route through it--from DS_AS.AS.routeBuild
+2572marking its decoy route--from DS_AS.AS.getDecoy
+2572is making its decision --from DS_AS.AS.response
+2572 cleanbenefit:6616931815931904 decoybenefit:39701590895591424
+2572is c=6616931815931904d=39701590895591424
+as:2572decide to decoy
+building route of as:2586
+2586getting all route through it--from DS_AS.AS.routeBuild
+2586marking its decoy route--from DS_AS.AS.getDecoy
+2586is making its decision --from DS_AS.AS.response
+2586 cleanbenefit:685781942257408 decoybenefit:4114691653544448
+2586is c=685781942257408d=4114691653544448
+as:2586decide to decoy
+building route of as:2593
+2593getting all route through it--from DS_AS.AS.routeBuild
+2593marking its decoy route--from DS_AS.AS.getDecoy
+2593is making its decision --from DS_AS.AS.response
+2593 cleanbenefit:32412705708544 decoybenefit:194476234251264
+2593is c=32412705708544d=194476234251264
+as:2593decide to decoy
+building route of as:2594
+2594getting all route through it--from DS_AS.AS.routeBuild
+2594marking its decoy route--from DS_AS.AS.getDecoy
+2594is making its decision --from DS_AS.AS.response
+2594 cleanbenefit:1009629156860416 decoybenefit:6057774941162496
+2594is c=1009629156860416d=6057774941162496
+as:2594decide to decoy
+building route of as:2595
+2595getting all route through it--from DS_AS.AS.routeBuild
+2595marking its decoy route--from DS_AS.AS.getDecoy
+2595is making its decision --from DS_AS.AS.response
+2595 cleanbenefit:150331997967360 decoybenefit:901991987804160
+2595is c=150331997967360d=901991987804160
+as:2595decide to decoy
+building route of as:2597
+2597getting all route through it--from DS_AS.AS.routeBuild
+2597marking its decoy route--from DS_AS.AS.getDecoy
+2597is making its decision --from DS_AS.AS.response
+2597 cleanbenefit:5399091462656 decoybenefit:32394548775936
+2597is c=5399091462656d=32394548775936
+as:2597decide to decoy
+building route of as:2602
+2602getting all route through it--from DS_AS.AS.routeBuild
+2602marking its decoy route--from DS_AS.AS.getDecoy
+2602is making its decision --from DS_AS.AS.response
+2602 cleanbenefit:2051810430767514 decoybenefit:12310862584605084
+2602is c=2051810430767514d=12310862584605084
+as:2602decide to decoy
+building route of as:2603
+2603getting all route through it--from DS_AS.AS.routeBuild
+2603marking its decoy route--from DS_AS.AS.getDecoy
+2603is making its decision --from DS_AS.AS.response
+2603 cleanbenefit:2960411759918426748 decoybenefit:17762470559510560488
+2603is c=2960411759918426748d=17762470559510560488
+as:2603decide to decoy
+building route of as:2606
+2606getting all route through it--from DS_AS.AS.routeBuild
+2606marking its decoy route--from DS_AS.AS.getDecoy
+2606is making its decision --from DS_AS.AS.response
+2606 cleanbenefit:10798182401024 decoybenefit:64789094406144
+2606is c=10798182401024d=64789094406144
+as:2606decide to decoy
+building route of as:2607
+2607getting all route through it--from DS_AS.AS.routeBuild
+2607marking its decoy route--from DS_AS.AS.getDecoy
+2607is making its decision --from DS_AS.AS.response
+2607 cleanbenefit:22572411856969600 decoybenefit:135434471141817600
+2607is c=22572411856969600d=135434471141817600
+as:2607decide to decoy
+building route of as:2609
+2609getting all route through it--from DS_AS.AS.routeBuild
+2609marking its decoy route--from DS_AS.AS.getDecoy
+2609is making its decision --from DS_AS.AS.response
+2609 cleanbenefit:17611546936648704 decoybenefit:105669281619892224
+2609is c=17611546936648704d=105669281619892224
+as:2609decide to decoy
+building route of as:2611
+2611getting all route through it--from DS_AS.AS.routeBuild
+2611marking its decoy route--from DS_AS.AS.getDecoy
+2611is making its decision --from DS_AS.AS.response
+2611 cleanbenefit:40306336221900910 decoybenefit:241838017331405460
+2611is c=40306336221900910d=241838017331405460
+as:2611decide to decoy
+building route of as:2613
+2613getting all route through it--from DS_AS.AS.routeBuild
+2613marking its decoy route--from DS_AS.AS.getDecoy
+2613is making its decision --from DS_AS.AS.response
+2613 cleanbenefit:31662452398231175 decoybenefit:189974714389387050
+2613is c=31662452398231175d=189974714389387050
+as:2613decide to decoy
+building route of as:2614
+2614getting all route through it--from DS_AS.AS.routeBuild
+2614marking its decoy route--from DS_AS.AS.getDecoy
+2614is making its decision --from DS_AS.AS.response
+2614 cleanbenefit:2646985764507904 decoybenefit:15881914587047424
+2614is c=2646985764507904d=15881914587047424
+as:2614decide to decoy
+building route of as:2615
+2615getting all route through it--from DS_AS.AS.routeBuild
+2615marking its decoy route--from DS_AS.AS.getDecoy
+2615is making its decision --from DS_AS.AS.response
+2615 cleanbenefit:75587232766976 decoybenefit:453523396601856
+2615is c=75587232766976d=453523396601856
+as:2615decide to decoy
+building route of as:2631
+2631getting all route through it--from DS_AS.AS.routeBuild
+2631marking its decoy route--from DS_AS.AS.getDecoy
+2631is making its decision --from DS_AS.AS.response
+2631 cleanbenefit:12845056 decoybenefit:77070336
+2631is c=12845056d=77070336
+as:2631decide to decoy
+building route of as:2635
+2635getting all route through it--from DS_AS.AS.routeBuild
+2635marking its decoy route--from DS_AS.AS.getDecoy
+2635is making its decision --from DS_AS.AS.response
+2635 cleanbenefit:92787282821098542 decoybenefit:556723696926591252
+2635is c=92787282821098542d=556723696926591252
+as:2635decide to decoy
+building route of as:2647
+2647getting all route through it--from DS_AS.AS.routeBuild
+2647marking its decoy route--from DS_AS.AS.getDecoy
+2647is making its decision --from DS_AS.AS.response
+2647 cleanbenefit:187600315986030312 decoybenefit:1125601895916181872
+2647is c=187600315986030312d=1125601895916181872
+as:2647decide to decoy
+building route of as:2650
+2650getting all route through it--from DS_AS.AS.routeBuild
+2650marking its decoy route--from DS_AS.AS.getDecoy
+2650is making its decision --from DS_AS.AS.response
+2650 cleanbenefit:4328587264 decoybenefit:25971523584
+2650is c=4328587264d=25971523584
+as:2650decide to decoy
+building route of as:2683
+2683getting all route through it--from DS_AS.AS.routeBuild
+2683marking its decoy route--from DS_AS.AS.getDecoy
+2683is making its decision --from DS_AS.AS.response
+2683 cleanbenefit:481795650915840 decoybenefit:2890773905495040
+2683is c=481795650915840d=2890773905495040
+as:2683decide to decoy
+building route of as:2685
+2685getting all route through it--from DS_AS.AS.routeBuild
+2685marking its decoy route--from DS_AS.AS.getDecoy
+2685is making its decision --from DS_AS.AS.response
+2685 cleanbenefit:1266072594101504 decoybenefit:7596435564609024
+2685is c=1266072594101504d=7596435564609024
+as:2685decide to decoy
+building route of as:2686
+2686getting all route through it--from DS_AS.AS.routeBuild
+2686marking its decoy route--from DS_AS.AS.getDecoy
+2686is making its decision --from DS_AS.AS.response
+2686 cleanbenefit:512183026385617000 decoybenefit:3073098158313702000
+2686is c=512183026385617000d=3073098158313702000
+as:2686decide to decoy
+building route of as:2687
+2687getting all route through it--from DS_AS.AS.routeBuild
+2687marking its decoy route--from DS_AS.AS.getDecoy
+2687is making its decision --from DS_AS.AS.response
+2687 cleanbenefit:197528991310573250 decoybenefit:1185173947863439500
+2687is c=197528991310573250d=1185173947863439500
+as:2687decide to decoy
+building route of as:2688
+2688getting all route through it--from DS_AS.AS.routeBuild
+2688marking its decoy route--from DS_AS.AS.getDecoy
+2688is making its decision --from DS_AS.AS.response
+2688 cleanbenefit:127423388896303104 decoybenefit:764540333377818624
+2688is c=127423388896303104d=764540333377818624
+as:2688decide to decoy
+building route of as:2711
+2711getting all route through it--from DS_AS.AS.routeBuild
+2711marking its decoy route--from DS_AS.AS.getDecoy
+2711is making its decision --from DS_AS.AS.response
+2711 cleanbenefit:347836100156115324 decoybenefit:2087016600936691944
+2711is c=347836100156115324d=2087016600936691944
+as:2711decide to decoy
+building route of as:2731
+2731getting all route through it--from DS_AS.AS.routeBuild
+2731marking its decoy route--from DS_AS.AS.getDecoy
+2731is making its decision --from DS_AS.AS.response
+2731 cleanbenefit:21233664 decoybenefit:127401984
+2731is c=21233664d=127401984
+as:2731decide to decoy
+building route of as:2734
+2734getting all route through it--from DS_AS.AS.routeBuild
+2734marking its decoy route--from DS_AS.AS.getDecoy
+2734is making its decision --from DS_AS.AS.response
+2734 cleanbenefit:1462123195428804 decoybenefit:8772739172572824
+2734is c=1462123195428804d=8772739172572824
+as:2734decide to decoy
+building route of as:2764
+2764getting all route through it--from DS_AS.AS.routeBuild
+2764marking its decoy route--from DS_AS.AS.getDecoy
+2764is making its decision --from DS_AS.AS.response
+2764 cleanbenefit:147981875393904682 decoybenefit:887891252363428092
+2764is c=147981875393904682d=887891252363428092
+as:2764decide to decoy
+building route of as:2818
+2818getting all route through it--from DS_AS.AS.routeBuild
+2818marking its decoy route--from DS_AS.AS.getDecoy
+2818is making its decision --from DS_AS.AS.response
+2818 cleanbenefit:1173963332470528 decoybenefit:7043779994823168
+2818is c=1173963332470528d=7043779994823168
+as:2818decide to decoy
+building route of as:2847
+2847getting all route through it--from DS_AS.AS.routeBuild
+2847marking its decoy route--from DS_AS.AS.getDecoy
+2847is making its decision --from DS_AS.AS.response
+2847 cleanbenefit:1246768947873024 decoybenefit:7480613687238144
+2847is c=1246768947873024d=7480613687238144
+as:2847decide to decoy
+building route of as:2852
+2852getting all route through it--from DS_AS.AS.routeBuild
+2852marking its decoy route--from DS_AS.AS.getDecoy
+2852is making its decision --from DS_AS.AS.response
+2852 cleanbenefit:26808946215682932 decoybenefit:160853677294097592
+2852is c=26808946215682932d=160853677294097592
+as:2852decide to decoy
+building route of as:2854
+2854getting all route through it--from DS_AS.AS.routeBuild
+2854marking its decoy route--from DS_AS.AS.getDecoy
+2854is making its decision --from DS_AS.AS.response
+2854 cleanbenefit:7200540372784253 decoybenefit:43203242236705518
+2854is c=7200540372784253d=43203242236705518
+as:2854decide to decoy
+building route of as:2856
+2856getting all route through it--from DS_AS.AS.routeBuild
+2856marking its decoy route--from DS_AS.AS.getDecoy
+2856is making its decision --from DS_AS.AS.response
+2856 cleanbenefit:177366031284841024 decoybenefit:1064196187709046144
+2856is c=177366031284841024d=1064196187709046144
+as:2856decide to decoy
+building route of as:2857
+2857getting all route through it--from DS_AS.AS.routeBuild
+2857marking its decoy route--from DS_AS.AS.getDecoy
+2857is making its decision --from DS_AS.AS.response
+2857 cleanbenefit:4216530739452416 decoybenefit:25299184436714496
+2857is c=4216530739452416d=25299184436714496
+as:2857decide to decoy
+building route of as:2860
+2860getting all route through it--from DS_AS.AS.routeBuild
+2860marking its decoy route--from DS_AS.AS.getDecoy
+2860is making its decision --from DS_AS.AS.response
+2860 cleanbenefit:25699470939228704 decoybenefit:154196825635372224
+2860is c=25699470939228704d=154196825635372224
+as:2860decide to decoy
+building route of as:2874
+2874getting all route through it--from DS_AS.AS.routeBuild
+2874marking its decoy route--from DS_AS.AS.getDecoy
+2874is making its decision --from DS_AS.AS.response
+2874 cleanbenefit:28246489703413436 decoybenefit:169478938220480616
+2874is c=28246489703413436d=169478938220480616
+as:2874decide to decoy
+building route of as:2895
+2895getting all route through it--from DS_AS.AS.routeBuild
+2895marking its decoy route--from DS_AS.AS.getDecoy
+2895is making its decision --from DS_AS.AS.response
+2895 cleanbenefit:43979579697945561 decoybenefit:263877478187673366
+2895is c=43979579697945561d=263877478187673366
+as:2895decide to decoy
+building route of as:2905
+2905getting all route through it--from DS_AS.AS.routeBuild
+2905marking its decoy route--from DS_AS.AS.getDecoy
+2905is making its decision --from DS_AS.AS.response
+2905 cleanbenefit:656127318008396 decoybenefit:3936763908050376
+2905is c=656127318008396d=3936763908050376
+as:2905decide to decoy
+building route of as:2906
+2906getting all route through it--from DS_AS.AS.routeBuild
+2906marking its decoy route--from DS_AS.AS.getDecoy
+2906is making its decision --from DS_AS.AS.response
+2906 cleanbenefit:1128031043778327587 decoybenefit:6768186262669965522
+2906is c=1128031043778327587d=6768186262669965522
+as:2906decide to decoy
+building route of as:2907
+2907getting all route through it--from DS_AS.AS.routeBuild
+2907marking its decoy route--from DS_AS.AS.getDecoy
+2907is making its decision --from DS_AS.AS.response
+2907 cleanbenefit:210482960318576615 decoybenefit:1262897761911459690
+2907is c=210482960318576615d=1262897761911459690
+as:2907decide to decoy
+building route of as:3043
+3043getting all route through it--from DS_AS.AS.routeBuild
+3043marking its decoy route--from DS_AS.AS.getDecoy
+3043is making its decision --from DS_AS.AS.response
+3043 cleanbenefit:11949707916135936 decoybenefit:71698247496815616
+3043is c=11949707916135936d=71698247496815616
+as:3043decide to decoy
+building route of as:3058
+3058getting all route through it--from DS_AS.AS.routeBuild
+3058marking its decoy route--from DS_AS.AS.getDecoy
+3058is making its decision --from DS_AS.AS.response
+3058 cleanbenefit:237559528380416 decoybenefit:1425357170282496
+3058is c=237559528380416d=1425357170282496
+as:3058decide to decoy
+building route of as:3067
+3067getting all route through it--from DS_AS.AS.routeBuild
+3067marking its decoy route--from DS_AS.AS.getDecoy
+3067is making its decision --from DS_AS.AS.response
+3067 cleanbenefit:265690904024900 decoybenefit:1594145424149400
+3067is c=265690904024900d=1594145424149400
+as:3067decide to decoy
+building route of as:3128
+3128getting all route through it--from DS_AS.AS.routeBuild
+3128marking its decoy route--from DS_AS.AS.getDecoy
+3128is making its decision --from DS_AS.AS.response
+3128 cleanbenefit:12459707295401984 decoybenefit:74758243772411904
+3128is c=12459707295401984d=74758243772411904
+as:3128decide to decoy
+building route of as:3130
+3130getting all route through it--from DS_AS.AS.routeBuild
+3130marking its decoy route--from DS_AS.AS.getDecoy
+3130is making its decision --from DS_AS.AS.response
+3130 cleanbenefit:43074833855552299 decoybenefit:258449003133313794
+3130is c=43074833855552299d=258449003133313794
+as:3130decide to decoy
+building route of as:3165
+3165getting all route through it--from DS_AS.AS.routeBuild
+3165marking its decoy route--from DS_AS.AS.getDecoy
+3165is making its decision --from DS_AS.AS.response
+3165 cleanbenefit:4053530531328 decoybenefit:24321183187968
+3165is c=4053530531328d=24321183187968
+as:3165decide to decoy
+building route of as:3175
+3175getting all route through it--from DS_AS.AS.routeBuild
+3175marking its decoy route--from DS_AS.AS.getDecoy
+3175is making its decision --from DS_AS.AS.response
+3175 cleanbenefit:190517210171904 decoybenefit:1143103261031424
+3175is c=190517210171904d=1143103261031424
+as:3175decide to decoy
+building route of as:3185
+3185getting all route through it--from DS_AS.AS.routeBuild
+3185marking its decoy route--from DS_AS.AS.getDecoy
+3185is making its decision --from DS_AS.AS.response
+3185 cleanbenefit:5399091462656 decoybenefit:32394548775936
+3185is c=5399091462656d=32394548775936
+as:3185decide to decoy
+building route of as:3202
+3202getting all route through it--from DS_AS.AS.routeBuild
+3202marking its decoy route--from DS_AS.AS.getDecoy
+3202is making its decision --from DS_AS.AS.response
+3202 cleanbenefit:10798182401024 decoybenefit:64789094406144
+3202is c=10798182401024d=64789094406144
+as:3202decide to decoy
+building route of as:3209
+3209getting all route through it--from DS_AS.AS.routeBuild
+3209marking its decoy route--from DS_AS.AS.getDecoy
+3209is making its decision --from DS_AS.AS.response
+3209 cleanbenefit:203917189820499840 decoybenefit:1223503138922999040
+3209is c=203917189820499840d=1223503138922999040
+as:3209decide to decoy
+building route of as:3212
+3212getting all route through it--from DS_AS.AS.routeBuild
+3212marking its decoy route--from DS_AS.AS.getDecoy
+3212is making its decision --from DS_AS.AS.response
+3212 cleanbenefit:6589202559166720 decoybenefit:39535215355000320
+3212is c=6589202559166720d=39535215355000320
+as:3212decide to decoy
+building route of as:3213
+3213getting all route through it--from DS_AS.AS.routeBuild
+3213marking its decoy route--from DS_AS.AS.getDecoy
+3213is making its decision --from DS_AS.AS.response
+3213 cleanbenefit:2293577717065984 decoybenefit:13761466302395904
+3213is c=2293577717065984d=13761466302395904
+as:3213decide to decoy
+building route of as:3214
+3214getting all route through it--from DS_AS.AS.routeBuild
+3214marking its decoy route--from DS_AS.AS.getDecoy
+3214is making its decision --from DS_AS.AS.response
+3214 cleanbenefit:107371432635904 decoybenefit:644228595815424
+3214is c=107371432635904d=644228595815424
+as:3214decide to decoy
+building route of as:3215
+3215getting all route through it--from DS_AS.AS.routeBuild
+3215marking its decoy route--from DS_AS.AS.getDecoy
+3215is making its decision --from DS_AS.AS.response
+3215 cleanbenefit:448670570275057928 decoybenefit:2692023421650347568
+3215is c=448670570275057928d=2692023421650347568
+as:3215decide to decoy
+building route of as:3216
+3216getting all route through it--from DS_AS.AS.routeBuild
+3216marking its decoy route--from DS_AS.AS.getDecoy
+3216is making its decision --from DS_AS.AS.response
+3216 cleanbenefit:302650421366468247 decoybenefit:1815902528198809482
+3216is c=302650421366468247d=1815902528198809482
+as:3216decide to decoy
+building route of as:3218
+3218getting all route through it--from DS_AS.AS.routeBuild
+3218marking its decoy route--from DS_AS.AS.getDecoy
+3218is making its decision --from DS_AS.AS.response
+3218 cleanbenefit:429226135305984 decoybenefit:2575356811835904
+3218is c=429226135305984d=2575356811835904
+as:3218decide to decoy
+building route of as:3221
+3221getting all route through it--from DS_AS.AS.routeBuild
+3221marking its decoy route--from DS_AS.AS.getDecoy
+3221is making its decision --from DS_AS.AS.response
+3221 cleanbenefit:1269848470247424 decoybenefit:7619090821484544
+3221is c=1269848470247424d=7619090821484544
+as:3221decide to decoy
+building route of as:3223
+3223getting all route through it--from DS_AS.AS.routeBuild
+3223marking its decoy route--from DS_AS.AS.getDecoy
+3223is making its decision --from DS_AS.AS.response
+3223 cleanbenefit:269753322595846245 decoybenefit:1618519935575077470
+3223is c=269753322595846245d=1618519935575077470
+as:3223decide to decoy
+building route of as:3225
+3225getting all route through it--from DS_AS.AS.routeBuild
+3225marking its decoy route--from DS_AS.AS.getDecoy
+3225is making its decision --from DS_AS.AS.response
+3225 cleanbenefit:1361559964822528 decoybenefit:8169359788935168
+3225is c=1361559964822528d=8169359788935168
+as:3225decide to decoy
+building route of as:3226
+3226getting all route through it--from DS_AS.AS.routeBuild
+3226marking its decoy route--from DS_AS.AS.getDecoy
+3226is making its decision --from DS_AS.AS.response
+3226 cleanbenefit:846251495227624 decoybenefit:5077508971365744
+3226is c=846251495227624d=5077508971365744
+as:3226decide to decoy
+building route of as:3233
+3233getting all route through it--from DS_AS.AS.routeBuild
+3233marking its decoy route--from DS_AS.AS.getDecoy
+3233is making its decision --from DS_AS.AS.response
+3233 cleanbenefit:293208418460160 decoybenefit:1759250510760960
+3233is c=293208418460160d=1759250510760960
+as:3233decide to decoy
+building route of as:3238
+3238getting all route through it--from DS_AS.AS.routeBuild
+3238marking its decoy route--from DS_AS.AS.getDecoy
+3238is making its decision --from DS_AS.AS.response
+3238 cleanbenefit:550704628583424 decoybenefit:3304227771500544
+3238is c=550704628583424d=3304227771500544
+as:3238decide to decoy
+building route of as:3244
+3244getting all route through it--from DS_AS.AS.routeBuild
+3244marking its decoy route--from DS_AS.AS.getDecoy
+3244is making its decision --from DS_AS.AS.response
+3244 cleanbenefit:97183566111744 decoybenefit:583101396670464
+3244is c=97183566111744d=583101396670464
+as:3244decide to decoy
+building route of as:3245
+3245getting all route through it--from DS_AS.AS.routeBuild
+3245marking its decoy route--from DS_AS.AS.getDecoy
+3245is making its decision --from DS_AS.AS.response
+3245 cleanbenefit:561990912434464 decoybenefit:3371945474606784
+3245is c=561990912434464d=3371945474606784
+as:3245decide to decoy
+building route of as:3249
+3249getting all route through it--from DS_AS.AS.routeBuild
+3249marking its decoy route--from DS_AS.AS.getDecoy
+3249is making its decision --from DS_AS.AS.response
+3249 cleanbenefit:7438001533510400 decoybenefit:44628009201062400
+3249is c=7438001533510400d=44628009201062400
+as:3249decide to decoy
+building route of as:3250
+3250getting all route through it--from DS_AS.AS.routeBuild
+3250marking its decoy route--from DS_AS.AS.getDecoy
+3250is making its decision --from DS_AS.AS.response
+3250 cleanbenefit:10798182401024 decoybenefit:64789094406144
+3250is c=10798182401024d=64789094406144
+as:3250decide to decoy
+building route of as:3252
+3252getting all route through it--from DS_AS.AS.routeBuild
+3252marking its decoy route--from DS_AS.AS.getDecoy
+3252is making its decision --from DS_AS.AS.response
+3252 cleanbenefit:1728894499653162 decoybenefit:10373366997918972
+3252is c=1728894499653162d=10373366997918972
+as:3252decide to decoy
+building route of as:3254
+3254getting all route through it--from DS_AS.AS.routeBuild
+3254marking its decoy route--from DS_AS.AS.getDecoy
+3254is making its decision --from DS_AS.AS.response
+3254 cleanbenefit:550719651160289 decoybenefit:3304317906961734
+3254is c=550719651160289d=3304317906961734
+as:3254decide to decoy
+building route of as:3255
+3255getting all route through it--from DS_AS.AS.routeBuild
+3255marking its decoy route--from DS_AS.AS.getDecoy
+3255is making its decision --from DS_AS.AS.response
+3255 cleanbenefit:19057752110575021 decoybenefit:114346512663450126
+3255is c=19057752110575021d=114346512663450126
+as:3255decide to decoy
+building route of as:3261
+3261getting all route through it--from DS_AS.AS.routeBuild
+3261marking its decoy route--from DS_AS.AS.getDecoy
+3261is making its decision --from DS_AS.AS.response
+3261 cleanbenefit:1489828205069824 decoybenefit:8938969230418944
+3261is c=1489828205069824d=8938969230418944
+as:3261decide to decoy
+building route of as:3262
+3262getting all route through it--from DS_AS.AS.routeBuild
+3262marking its decoy route--from DS_AS.AS.getDecoy
+3262is making its decision --from DS_AS.AS.response
+3262 cleanbenefit:1167957214180038 decoybenefit:7007743285080228
+3262is c=1167957214180038d=7007743285080228
+as:3262decide to decoy
+building route of as:3265
+3265getting all route through it--from DS_AS.AS.routeBuild
+3265marking its decoy route--from DS_AS.AS.getDecoy
+3265is making its decision --from DS_AS.AS.response
+3265 cleanbenefit:12628653697261568 decoybenefit:75771922183569408
+3265is c=12628653697261568d=75771922183569408
+as:3265decide to decoy
+building route of as:3267
+3267getting all route through it--from DS_AS.AS.routeBuild
+3267marking its decoy route--from DS_AS.AS.getDecoy
+3267is making its decision --from DS_AS.AS.response
+3267 cleanbenefit:200608341745221369 decoybenefit:1203650050471328214
+3267is c=200608341745221369d=1203650050471328214
+as:3267decide to decoy
+building route of as:3269
+3269getting all route through it--from DS_AS.AS.routeBuild
+3269marking its decoy route--from DS_AS.AS.getDecoy
+3269is making its decision --from DS_AS.AS.response
+3269 cleanbenefit:255234354199690704 decoybenefit:1531406125198144224
+3269is c=255234354199690704d=1531406125198144224
+as:3269decide to decoy
+building route of as:3300
+3300getting all route through it--from DS_AS.AS.routeBuild
+3300marking its decoy route--from DS_AS.AS.getDecoy
+3300is making its decision --from DS_AS.AS.response
+3300 cleanbenefit:8116406336306990 decoybenefit:48698438017841940
+3300is c=8116406336306990d=48698438017841940
+as:3300decide to decoy
+building route of as:3301
+3301getting all route through it--from DS_AS.AS.routeBuild
+3301marking its decoy route--from DS_AS.AS.getDecoy
+3301is making its decision --from DS_AS.AS.response
+3301 cleanbenefit:90763593950439292 decoybenefit:544581563702635752
+3301is c=90763593950439292d=544581563702635752
+as:3301decide to decoy
+building route of as:3302
+3302getting all route through it--from DS_AS.AS.routeBuild
+3302marking its decoy route--from DS_AS.AS.getDecoy
+3302is making its decision --from DS_AS.AS.response
+3302 cleanbenefit:5464940564821760 decoybenefit:32789643388930560
+3302is c=5464940564821760d=32789643388930560
+as:3302decide to decoy
+building route of as:3308
+3308getting all route through it--from DS_AS.AS.routeBuild
+3308marking its decoy route--from DS_AS.AS.getDecoy
+3308is making its decision --from DS_AS.AS.response
+3308 cleanbenefit:5475733238220487 decoybenefit:32854399429322922
+3308is c=5475733238220487d=32854399429322922
+as:3308decide to decoy
+building route of as:3316
+3316getting all route through it--from DS_AS.AS.routeBuild
+3316marking its decoy route--from DS_AS.AS.getDecoy
+3316is making its decision --from DS_AS.AS.response
+3316 cleanbenefit:354704138606720 decoybenefit:2128224831640320
+3316is c=354704138606720d=2128224831640320
+as:3316decide to decoy
+building route of as:3324
+3324getting all route through it--from DS_AS.AS.routeBuild
+3324marking its decoy route--from DS_AS.AS.getDecoy
+3324is making its decision --from DS_AS.AS.response
+3324 cleanbenefit:210564178546176 decoybenefit:1263385071277056
+3324is c=210564178546176d=1263385071277056
+as:3324decide to decoy
+building route of as:3326
+3326getting all route through it--from DS_AS.AS.routeBuild
+3326marking its decoy route--from DS_AS.AS.getDecoy
+3326is making its decision --from DS_AS.AS.response
+3326 cleanbenefit:26189017965180680 decoybenefit:157134107791084080
+3326is c=26189017965180680d=157134107791084080
+as:3326decide to decoy
+building route of as:3327
+3327getting all route through it--from DS_AS.AS.routeBuild
+3327marking its decoy route--from DS_AS.AS.getDecoy
+3327is making its decision --from DS_AS.AS.response
+3327 cleanbenefit:7637491159529533 decoybenefit:45824946957177198
+3327is c=7637491159529533d=45824946957177198
+as:3327decide to decoy
+building route of as:3330
+3330getting all route through it--from DS_AS.AS.routeBuild
+3330marking its decoy route--from DS_AS.AS.getDecoy
+3330is making its decision --from DS_AS.AS.response
+3330 cleanbenefit:1045397222071552 decoybenefit:6272383332429312
+3330is c=1045397222071552d=6272383332429312
+as:3330decide to decoy
+building route of as:3331
+3331getting all route through it--from DS_AS.AS.routeBuild
+3331marking its decoy route--from DS_AS.AS.getDecoy
+3331is making its decision --from DS_AS.AS.response
+3331 cleanbenefit:56690434209024 decoybenefit:340142605254144
+3331is c=56690434209024d=340142605254144
+as:3331decide to decoy
+building route of as:3333
+3333getting all route through it--from DS_AS.AS.routeBuild
+3333marking its decoy route--from DS_AS.AS.getDecoy
+3333is making its decision --from DS_AS.AS.response
+3333 cleanbenefit:2074458972106300 decoybenefit:12446753832637800
+3333is c=2074458972106300d=12446753832637800
+as:3333decide to decoy
+building route of as:3342
+3342getting all route through it--from DS_AS.AS.routeBuild
+3342marking its decoy route--from DS_AS.AS.getDecoy
+3342is making its decision --from DS_AS.AS.response
+3342 cleanbenefit:26995452070400 decoybenefit:161972712422400
+3342is c=26995452070400d=161972712422400
+as:3342decide to decoy
+building route of as:3347
+3347getting all route through it--from DS_AS.AS.routeBuild
+3347marking its decoy route--from DS_AS.AS.getDecoy
+3347is making its decision --from DS_AS.AS.response
+3347 cleanbenefit:45892260720896 decoybenefit:275353564325376
+3347is c=45892260720896d=275353564325376
+as:3347decide to decoy
+building route of as:3352
+3352getting all route through it--from DS_AS.AS.routeBuild
+3352marking its decoy route--from DS_AS.AS.getDecoy
+3352is making its decision --from DS_AS.AS.response
+3352 cleanbenefit:119420151691939392 decoybenefit:716520910151636352
+3352is c=119420151691939392d=716520910151636352
+as:3352decide to decoy
+building route of as:3361
+3361getting all route through it--from DS_AS.AS.routeBuild
+3361marking its decoy route--from DS_AS.AS.getDecoy
+3361is making its decision --from DS_AS.AS.response
+3361 cleanbenefit:10982027259633664 decoybenefit:65892163557801984
+3361is c=10982027259633664d=65892163557801984
+as:3361decide to decoy
+building route of as:3367
+3367getting all route through it--from DS_AS.AS.routeBuild
+3367marking its decoy route--from DS_AS.AS.getDecoy
+3367is making its decision --from DS_AS.AS.response
+3367 cleanbenefit:24444430662129152 decoybenefit:146666583972774912
+3367is c=24444430662129152d=146666583972774912
+as:3367decide to decoy
+building route of as:3402
+3402getting all route through it--from DS_AS.AS.routeBuild
+3402marking its decoy route--from DS_AS.AS.getDecoy
+3402is making its decision --from DS_AS.AS.response
+3402 cleanbenefit:29264657165015718 decoybenefit:175587942990094308
+3402is c=29264657165015718d=175587942990094308
+as:3402decide to decoy
+building route of as:3512
+3512getting all route through it--from DS_AS.AS.routeBuild
+3512marking its decoy route--from DS_AS.AS.getDecoy
+3512is making its decision --from DS_AS.AS.response
+3512 cleanbenefit:1404083562225696 decoybenefit:8424501373354176
+3512is c=1404083562225696d=8424501373354176
+as:3512decide to decoy
+building route of as:3549
+3549getting all route through it--from DS_AS.AS.routeBuild
+3549marking its decoy route--from DS_AS.AS.getDecoy
+3549is making its decision --from DS_AS.AS.response
+3549 cleanbenefit:2453008209681755020 decoybenefit:14718049258090530120
+3549is c=2453008209681755020d=14718049258090530120
+as:3549decide to decoy
+building route of as:3573
+3573getting all route through it--from DS_AS.AS.routeBuild
+3573marking its decoy route--from DS_AS.AS.getDecoy
+3573is making its decision --from DS_AS.AS.response
+3573 cleanbenefit:12746519988794745 decoybenefit:76479119932768470
+3573is c=12746519988794745d=76479119932768470
+as:3573decide to decoy
+building route of as:3580
+3580getting all route through it--from DS_AS.AS.routeBuild
+3580marking its decoy route--from DS_AS.AS.getDecoy
+3580is making its decision --from DS_AS.AS.response
+3580 cleanbenefit:58361719324644 decoybenefit:350170315947864
+3580is c=58361719324644d=350170315947864
+as:3580decide to decoy
+building route of as:3584
+3584getting all route through it--from DS_AS.AS.routeBuild
+3584marking its decoy route--from DS_AS.AS.getDecoy
+3584is making its decision --from DS_AS.AS.response
+3584 cleanbenefit:22970021941760 decoybenefit:137820131650560
+3584is c=22970021941760d=137820131650560
+as:3584decide to decoy
+building route of as:3595
+3595getting all route through it--from DS_AS.AS.routeBuild
+3595marking its decoy route--from DS_AS.AS.getDecoy
+3595is making its decision --from DS_AS.AS.response
+3595 cleanbenefit:248357664644096 decoybenefit:1490145987864576
+3595is c=248357664644096d=1490145987864576
+as:3595decide to decoy
+building route of as:3601
+3601getting all route through it--from DS_AS.AS.routeBuild
+3601marking its decoy route--from DS_AS.AS.getDecoy
+3601is making its decision --from DS_AS.AS.response
+3601 cleanbenefit:8098636997376 decoybenefit:48591821984256
+3601is c=8098636997376d=48591821984256
+as:3601decide to decoy
+building route of as:3605
+3605getting all route through it--from DS_AS.AS.routeBuild
+3605marking its decoy route--from DS_AS.AS.getDecoy
+3605is making its decision --from DS_AS.AS.response
+3605 cleanbenefit:1903147259961600 decoybenefit:11418883559769600
+3605is c=1903147259961600d=11418883559769600
+as:3605decide to decoy
+building route of as:3614
+3614getting all route through it--from DS_AS.AS.routeBuild
+3614marking its decoy route--from DS_AS.AS.getDecoy
+3614is making its decision --from DS_AS.AS.response
+3614 cleanbenefit:1539529644650752 decoybenefit:9237177867904512
+3614is c=1539529644650752d=9237177867904512
+as:3614decide to decoy
+building route of as:3661
+3661getting all route through it--from DS_AS.AS.routeBuild
+3661marking its decoy route--from DS_AS.AS.getDecoy
+3661is making its decision --from DS_AS.AS.response
+3661 cleanbenefit:780163280601344 decoybenefit:4680979683608064
+3661is c=780163280601344d=4680979683608064
+as:3661decide to decoy
+building route of as:3662
+3662getting all route through it--from DS_AS.AS.routeBuild
+3662marking its decoy route--from DS_AS.AS.getDecoy
+3662is making its decision --from DS_AS.AS.response
+3662 cleanbenefit:5517597937531904 decoybenefit:33105587625191424
+3662is c=5517597937531904d=33105587625191424
+as:3662decide to decoy
+building route of as:3663
+3663getting all route through it--from DS_AS.AS.routeBuild
+3663marking its decoy route--from DS_AS.AS.getDecoy
+3663is making its decision --from DS_AS.AS.response
+3663 cleanbenefit:55016131373331936 decoybenefit:330096788239991616
+3663is c=55016131373331936d=330096788239991616
+as:3663decide to decoy
+building route of as:3701
+3701getting all route through it--from DS_AS.AS.routeBuild
+3701marking its decoy route--from DS_AS.AS.getDecoy
+3701is making its decision --from DS_AS.AS.response
+3701 cleanbenefit:5752434623247104 decoybenefit:34514607739482624
+3701is c=5752434623247104d=34514607739482624
+as:3701decide to decoy
+building route of as:3728
+3728getting all route through it--from DS_AS.AS.routeBuild
+3728marking its decoy route--from DS_AS.AS.getDecoy
+3728is making its decision --from DS_AS.AS.response
+3728 cleanbenefit:349517208840192 decoybenefit:2097103253041152
+3728is c=349517208840192d=2097103253041152
+as:3728decide to decoy
+building route of as:3737
+3737getting all route through it--from DS_AS.AS.routeBuild
+3737marking its decoy route--from DS_AS.AS.getDecoy
+3737is making its decision --from DS_AS.AS.response
+3737 cleanbenefit:8690296100503296 decoybenefit:52141776603019776
+3737is c=8690296100503296d=52141776603019776
+as:3737decide to decoy
+building route of as:3741
+3741getting all route through it--from DS_AS.AS.routeBuild
+3741marking its decoy route--from DS_AS.AS.getDecoy
+3741is making its decision --from DS_AS.AS.response
+3741 cleanbenefit:352905482279520167 decoybenefit:2117432893677121002
+3741is c=352905482279520167d=2117432893677121002
+as:3741decide to decoy
+building route of as:3742
+3742getting all route through it--from DS_AS.AS.routeBuild
+3742marking its decoy route--from DS_AS.AS.getDecoy
+3742is making its decision --from DS_AS.AS.response
+3742 cleanbenefit:299648783257344 decoybenefit:1797892699544064
+3742is c=299648783257344d=1797892699544064
+as:3742decide to decoy
+building route of as:3758
+3758getting all route through it--from DS_AS.AS.routeBuild
+3758marking its decoy route--from DS_AS.AS.getDecoy
+3758is making its decision --from DS_AS.AS.response
+3758 cleanbenefit:685614709281994722 decoybenefit:4113688255691968332
+3758is c=685614709281994722d=4113688255691968332
+as:3758decide to decoy
+building route of as:3762
+3762getting all route through it--from DS_AS.AS.routeBuild
+3762marking its decoy route--from DS_AS.AS.getDecoy
+3762is making its decision --from DS_AS.AS.response
+3762 cleanbenefit:410763757314048 decoybenefit:2464582543884288
+3762is c=410763757314048d=2464582543884288
+as:3762decide to decoy
+building route of as:3842
+3842getting all route through it--from DS_AS.AS.routeBuild
+3842marking its decoy route--from DS_AS.AS.getDecoy
+3842is making its decision --from DS_AS.AS.response
+3842 cleanbenefit:442723758777344 decoybenefit:2656342552664064
+3842is c=442723758777344d=2656342552664064
+as:3842decide to decoy
+building route of as:3853
+3853getting all route through it--from DS_AS.AS.routeBuild
+3853marking its decoy route--from DS_AS.AS.getDecoy
+3853is making its decision --from DS_AS.AS.response
+3853 cleanbenefit:215963249561600 decoybenefit:1295779497369600
+3853is c=215963249561600d=1295779497369600
+as:3853decide to decoy
+building route of as:3856
+3856getting all route through it--from DS_AS.AS.routeBuild
+3856marking its decoy route--from DS_AS.AS.getDecoy
+3856is making its decision --from DS_AS.AS.response
+3856 cleanbenefit:1774020128830334 decoybenefit:10644120772982004
+3856is c=1774020128830334d=10644120772982004
+as:3856decide to decoy
+building route of as:3900
+3900getting all route through it--from DS_AS.AS.routeBuild
+3900marking its decoy route--from DS_AS.AS.getDecoy
+3900is making its decision --from DS_AS.AS.response
+3900 cleanbenefit:1875708382748928 decoybenefit:11254250296493568
+3900is c=1875708382748928d=11254250296493568
+as:3900decide to decoy
+building route of as:3908
+3908getting all route through it--from DS_AS.AS.routeBuild
+3908marking its decoy route--from DS_AS.AS.getDecoy
+3908is making its decision --from DS_AS.AS.response
+3908 cleanbenefit:840852457235666914 decoybenefit:5045114743414001484
+3908is c=840852457235666914d=5045114743414001484
+as:3908decide to decoy
+building route of as:3910
+3910getting all route through it--from DS_AS.AS.routeBuild
+3910marking its decoy route--from DS_AS.AS.getDecoy
+3910is making its decision --from DS_AS.AS.response
+3910 cleanbenefit:794208010765987848 decoybenefit:4765248064595927088
+3910is c=794208010765987848d=4765248064595927088
+as:3910decide to decoy
+building route of as:3943
+3943getting all route through it--from DS_AS.AS.routeBuild
+3943marking its decoy route--from DS_AS.AS.getDecoy
+3943is making its decision --from DS_AS.AS.response
+3943 cleanbenefit:694716402032896 decoybenefit:4168298412197376
+3943is c=694716402032896d=4168298412197376
+as:3943decide to decoy
+building route of as:4004
+4004getting all route through it--from DS_AS.AS.routeBuild
+4004marking its decoy route--from DS_AS.AS.getDecoy
+4004is making its decision --from DS_AS.AS.response
+4004 cleanbenefit:28254584224979900 decoybenefit:169527505349879400
+4004is c=28254584224979900d=169527505349879400
+as:4004decide to decoy
+building route of as:4040
+4040getting all route through it--from DS_AS.AS.routeBuild
+4040marking its decoy route--from DS_AS.AS.getDecoy
+4040is making its decision --from DS_AS.AS.response
+4040 cleanbenefit:262144 decoybenefit:1572864
+4040is c=262144d=1572864
+as:4040decide to decoy
+building route of as:4043
+4043getting all route through it--from DS_AS.AS.routeBuild
+4043marking its decoy route--from DS_AS.AS.getDecoy
+4043is making its decision --from DS_AS.AS.response
+4043 cleanbenefit:261855332024576 decoybenefit:1571131992147456
+4043is c=261855332024576d=1571131992147456
+as:4043decide to decoy
+building route of as:4049
+4049getting all route through it--from DS_AS.AS.routeBuild
+4049marking its decoy route--from DS_AS.AS.getDecoy
+4049is making its decision --from DS_AS.AS.response
+4049 cleanbenefit:153873901230336 decoybenefit:923243407382016
+4049is c=153873901230336d=923243407382016
+as:4049decide to decoy
+building route of as:4058
+4058getting all route through it--from DS_AS.AS.routeBuild
+4058marking its decoy route--from DS_AS.AS.getDecoy
+4058is making its decision --from DS_AS.AS.response
+4058 cleanbenefit:3412694625179088 decoybenefit:20476167751074528
+4058is c=3412694625179088d=20476167751074528
+as:4058decide to decoy
+building route of as:4128
+4128getting all route through it--from DS_AS.AS.routeBuild
+4128marking its decoy route--from DS_AS.AS.getDecoy
+4128is making its decision --from DS_AS.AS.response
+4128 cleanbenefit:2699545796864 decoybenefit:16197274781184
+4128is c=2699545796864d=16197274781184
+as:4128decide to decoy
+building route of as:4150
+4150getting all route through it--from DS_AS.AS.routeBuild
+4150marking its decoy route--from DS_AS.AS.getDecoy
+4150is making its decision --from DS_AS.AS.response
+4150 cleanbenefit:232160459462144 decoybenefit:1392962756772864
+4150is c=232160459462144d=1392962756772864
+as:4150decide to decoy
+building route of as:4181
+4181getting all route through it--from DS_AS.AS.routeBuild
+4181marking its decoy route--from DS_AS.AS.getDecoy
+4181is making its decision --from DS_AS.AS.response
+4181 cleanbenefit:360694064981631790 decoybenefit:2164164389889790740
+4181is c=360694064981631790d=2164164389889790740
+as:4181decide to decoy
+building route of as:4192
+4192getting all route through it--from DS_AS.AS.routeBuild
+4192marking its decoy route--from DS_AS.AS.getDecoy
+4192is making its decision --from DS_AS.AS.response
+4192 cleanbenefit:1629237805056 decoybenefit:9775426830336
+4192is c=1629237805056d=9775426830336
+as:4192decide to decoy
+building route of as:4258
+4258getting all route through it--from DS_AS.AS.routeBuild
+4258marking its decoy route--from DS_AS.AS.getDecoy
+4258is making its decision --from DS_AS.AS.response
+4258 cleanbenefit:1131660042765793 decoybenefit:6789960256594758
+4258is c=1131660042765793d=6789960256594758
+as:4258decide to decoy
+building route of as:4319
+4319getting all route through it--from DS_AS.AS.routeBuild
+4319marking its decoy route--from DS_AS.AS.getDecoy
+4319is making its decision --from DS_AS.AS.response
+4319 cleanbenefit:178169741443584 decoybenefit:1069018448661504
+4319is c=178169741443584d=1069018448661504
+as:4319decide to decoy
+building route of as:4323
+4323getting all route through it--from DS_AS.AS.routeBuild
+4323marking its decoy route--from DS_AS.AS.getDecoy
+4323is making its decision --from DS_AS.AS.response
+4323 cleanbenefit:146668294664925717 decoybenefit:880009767989554302
+4323is c=146668294664925717d=880009767989554302
+as:4323decide to decoy
+building route of as:4382
+4382getting all route through it--from DS_AS.AS.routeBuild
+4382marking its decoy route--from DS_AS.AS.getDecoy
+4382is making its decision --from DS_AS.AS.response
+4382 cleanbenefit:43192717021184 decoybenefit:259156302127104
+4382is c=43192717021184d=259156302127104
+as:4382decide to decoy
+building route of as:4385
+4385getting all route through it--from DS_AS.AS.routeBuild
+4385marking its decoy route--from DS_AS.AS.getDecoy
+4385is making its decision --from DS_AS.AS.response
+4385 cleanbenefit:693778958049536 decoybenefit:4162673748297216
+4385is c=693778958049536d=4162673748297216
+as:4385decide to decoy
+building route of as:4436
+4436getting all route through it--from DS_AS.AS.routeBuild
+4436marking its decoy route--from DS_AS.AS.getDecoy
+4436is making its decision --from DS_AS.AS.response
+4436 cleanbenefit:9271903179776150 decoybenefit:55631419078656900
+4436is c=9271903179776150d=55631419078656900
+as:4436decide to decoy
+building route of as:4459
+4459getting all route through it--from DS_AS.AS.routeBuild
+4459marking its decoy route--from DS_AS.AS.getDecoy
+4459is making its decision --from DS_AS.AS.response
+4459 cleanbenefit:205520896 decoybenefit:1233125376
+4459is c=205520896d=1233125376
+as:4459decide to decoy
+building route of as:4466
+4466getting all route through it--from DS_AS.AS.routeBuild
+4466marking its decoy route--from DS_AS.AS.getDecoy
+4466is making its decision --from DS_AS.AS.response
+4466 cleanbenefit:94578195103744 decoybenefit:567469170622464
+4466is c=94578195103744d=567469170622464
+as:4466decide to decoy
+building route of as:4474
+4474getting all route through it--from DS_AS.AS.routeBuild
+4474marking its decoy route--from DS_AS.AS.getDecoy
+4474is making its decision --from DS_AS.AS.response
+4474 cleanbenefit:272653463569664 decoybenefit:1635920781417984
+4474is c=272653463569664d=1635920781417984
+as:4474decide to decoy
+building route of as:4508
+4508getting all route through it--from DS_AS.AS.routeBuild
+4508marking its decoy route--from DS_AS.AS.getDecoy
+4508is making its decision --from DS_AS.AS.response
+4508 cleanbenefit:72887690509056 decoybenefit:437326143054336
+4508is c=72887690509056d=437326143054336
+as:4508decide to decoy
+building route of as:4511
+4511getting all route through it--from DS_AS.AS.routeBuild
+4511marking its decoy route--from DS_AS.AS.getDecoy
+4511is making its decision --from DS_AS.AS.response
+4511 cleanbenefit:394549168834560 decoybenefit:2367295013007360
+4511is c=394549168834560d=2367295013007360
+as:4511decide to decoy
+building route of as:4515
+4515getting all route through it--from DS_AS.AS.routeBuild
+4515marking its decoy route--from DS_AS.AS.getDecoy
+4515is making its decision --from DS_AS.AS.response
+4515 cleanbenefit:29240797593094036 decoybenefit:175444785558564216
+4515is c=29240797593094036d=175444785558564216
+as:4515decide to decoy
+building route of as:4540
+4540getting all route through it--from DS_AS.AS.routeBuild
+4540marking its decoy route--from DS_AS.AS.getDecoy
+4540is making its decision --from DS_AS.AS.response
+4540 cleanbenefit:491315176142336 decoybenefit:2947891056854016
+4540is c=491315176142336d=2947891056854016
+as:4540decide to decoy
+building route of as:4546
+4546getting all route through it--from DS_AS.AS.routeBuild
+4546marking its decoy route--from DS_AS.AS.getDecoy
+4546is making its decision --from DS_AS.AS.response
+4546 cleanbenefit:3637975110966366 decoybenefit:21827850665798196
+4546is c=3637975110966366d=21827850665798196
+as:4546decide to decoy
+building route of as:4556
+4556getting all route through it--from DS_AS.AS.routeBuild
+4556marking its decoy route--from DS_AS.AS.getDecoy
+4556is making its decision --from DS_AS.AS.response
+4556 cleanbenefit:4128768 decoybenefit:24772608
+4556is c=4128768d=24772608
+as:4556decide to decoy
+building route of as:4557
+4557getting all route through it--from DS_AS.AS.routeBuild
+4557marking its decoy route--from DS_AS.AS.getDecoy
+4557is making its decision --from DS_AS.AS.response
+4557 cleanbenefit:12277696042289408 decoybenefit:73666176253736448
+4557is c=12277696042289408d=73666176253736448
+as:4557decide to decoy
+building route of as:4565
+4565getting all route through it--from DS_AS.AS.routeBuild
+4565marking its decoy route--from DS_AS.AS.getDecoy
+4565is making its decision --from DS_AS.AS.response
+4565 cleanbenefit:9501193692067328 decoybenefit:57007162152403968
+4565is c=9501193692067328d=57007162152403968
+as:4565decide to decoy
+building route of as:4581
+4581getting all route through it--from DS_AS.AS.routeBuild
+4581marking its decoy route--from DS_AS.AS.getDecoy
+4581is making its decision --from DS_AS.AS.response
+4581 cleanbenefit:531807991506176 decoybenefit:3190847949037056
+4581is c=531807991506176d=3190847949037056
+as:4581decide to decoy
+building route of as:4583
+4583getting all route through it--from DS_AS.AS.routeBuild
+4583marking its decoy route--from DS_AS.AS.getDecoy
+4583is making its decision --from DS_AS.AS.response
+4583 cleanbenefit:74751934464 decoybenefit:448511606784
+4583is c=74751934464d=448511606784
+as:4583decide to decoy
+building route of as:4589
+4589getting all route through it--from DS_AS.AS.routeBuild
+4589marking its decoy route--from DS_AS.AS.getDecoy
+4589is making its decision --from DS_AS.AS.response
+4589 cleanbenefit:24794213271256064 decoybenefit:148765279627536384
+4589is c=24794213271256064d=148765279627536384
+as:4589decide to decoy
+building route of as:4594
+4594getting all route through it--from DS_AS.AS.routeBuild
+4594marking its decoy route--from DS_AS.AS.getDecoy
+4594is making its decision --from DS_AS.AS.response
+4594 cleanbenefit:40493173190400 decoybenefit:242959039142400
+4594is c=40493173190400d=242959039142400
+as:4594decide to decoy
+building route of as:4608
+4608getting all route through it--from DS_AS.AS.routeBuild
+4608marking its decoy route--from DS_AS.AS.getDecoy
+4608is making its decision --from DS_AS.AS.response
+4608 cleanbenefit:10549123269963708 decoybenefit:63294739619782248
+4608is c=10549123269963708d=63294739619782248
+as:4608decide to decoy
+building route of as:4609
+4609getting all route through it--from DS_AS.AS.routeBuild
+4609marking its decoy route--from DS_AS.AS.getDecoy
+4609is making its decision --from DS_AS.AS.response
+4609 cleanbenefit:19294467321873774 decoybenefit:115766803931242644
+4609is c=19294467321873774d=115766803931242644
+as:4609decide to decoy
+building route of as:4610
+4610getting all route through it--from DS_AS.AS.routeBuild
+4610marking its decoy route--from DS_AS.AS.getDecoy
+4610is making its decision --from DS_AS.AS.response
+4610 cleanbenefit:9271903179776150 decoybenefit:55631419078656900
+4610is c=9271903179776150d=55631419078656900
+as:4610decide to decoy
+building route of as:4628
+4628getting all route through it--from DS_AS.AS.routeBuild
+4628marking its decoy route--from DS_AS.AS.getDecoy
+4628is making its decision --from DS_AS.AS.response
+4628 cleanbenefit:2825425899589704 decoybenefit:16952555397538224
+4628is c=2825425899589704d=16952555397538224
+as:4628decide to decoy
+building route of as:4641
+4641getting all route through it--from DS_AS.AS.routeBuild
+4641marking its decoy route--from DS_AS.AS.getDecoy
+4641is making its decision --from DS_AS.AS.response
+4641 cleanbenefit:1110413819710208 decoybenefit:6662482918261248
+4641is c=1110413819710208d=6662482918261248
+as:4641decide to decoy
+building route of as:4646
+4646getting all route through it--from DS_AS.AS.routeBuild
+4646marking its decoy route--from DS_AS.AS.getDecoy
+4646is making its decision --from DS_AS.AS.response
+4646 cleanbenefit:10798182401024 decoybenefit:64789094406144
+4646is c=10798182401024d=64789094406144
+as:4646decide to decoy
+building route of as:4647
+4647getting all route through it--from DS_AS.AS.routeBuild
+4647marking its decoy route--from DS_AS.AS.getDecoy
+4647is making its decision --from DS_AS.AS.response
+4647 cleanbenefit:13497727673600 decoybenefit:80986366041600
+4647is c=13497727673600d=80986366041600
+as:4647decide to decoy
+building route of as:4648
+4648getting all route through it--from DS_AS.AS.routeBuild
+4648marking its decoy route--from DS_AS.AS.getDecoy
+4648is making its decision --from DS_AS.AS.response
+4648 cleanbenefit:52754688811907504 decoybenefit:316528132871445024
+4648is c=52754688811907504d=316528132871445024
+as:4648decide to decoy
+building route of as:4651
+4651getting all route through it--from DS_AS.AS.routeBuild
+4651marking its decoy route--from DS_AS.AS.getDecoy
+4651is making its decision --from DS_AS.AS.response
+4651 cleanbenefit:93415098094026015 decoybenefit:560490588564156090
+4651is c=93415098094026015d=560490588564156090
+as:4651decide to decoy
+building route of as:4652
+4652getting all route through it--from DS_AS.AS.routeBuild
+4652marking its decoy route--from DS_AS.AS.getDecoy
+4652is making its decision --from DS_AS.AS.response
+4652 cleanbenefit:3541887185730182 decoybenefit:21251323114381092
+4652is c=3541887185730182d=21251323114381092
+as:4652decide to decoy
+building route of as:4658
+4658getting all route through it--from DS_AS.AS.routeBuild
+4658marking its decoy route--from DS_AS.AS.getDecoy
+4658is making its decision --from DS_AS.AS.response
+4658 cleanbenefit:11852646368 decoybenefit:71115878208
+4658is c=11852646368d=71115878208
+as:4658decide to decoy
+building route of as:4668
+4668getting all route through it--from DS_AS.AS.routeBuild
+4668marking its decoy route--from DS_AS.AS.getDecoy
+4668is making its decision --from DS_AS.AS.response
+4668 cleanbenefit:2174466275364960 decoybenefit:13046797652189760
+4668is c=2174466275364960d=13046797652189760
+as:4668decide to decoy
+building route of as:4673
+4673getting all route through it--from DS_AS.AS.routeBuild
+4673marking its decoy route--from DS_AS.AS.getDecoy
+4673is making its decision --from DS_AS.AS.response
+4673 cleanbenefit:2834450902080000 decoybenefit:17006705412480000
+4673is c=2834450902080000d=17006705412480000
+as:4673decide to decoy
+building route of as:4675
+4675getting all route through it--from DS_AS.AS.routeBuild
+4675marking its decoy route--from DS_AS.AS.getDecoy
+4675is making its decision --from DS_AS.AS.response
+4675 cleanbenefit:799059833268224 decoybenefit:4794358999609344
+4675is c=799059833268224d=4794358999609344
+as:4675decide to decoy
+building route of as:4678
+4678getting all route through it--from DS_AS.AS.routeBuild
+4678marking its decoy route--from DS_AS.AS.getDecoy
+4678is making its decision --from DS_AS.AS.response
+4678 cleanbenefit:2388869061479440 decoybenefit:14333214368876640
+4678is c=2388869061479440d=14333214368876640
+as:4678decide to decoy
+building route of as:4680
+4680getting all route through it--from DS_AS.AS.routeBuild
+4680marking its decoy route--from DS_AS.AS.getDecoy
+4680is making its decision --from DS_AS.AS.response
+4680 cleanbenefit:936929622159872 decoybenefit:5621577732959232
+4680is c=936929622159872d=5621577732959232
+as:4680decide to decoy
+building route of as:4685
+4685getting all route through it--from DS_AS.AS.routeBuild
+4685marking its decoy route--from DS_AS.AS.getDecoy
+4685is making its decision --from DS_AS.AS.response
+4685 cleanbenefit:9544774753439744 decoybenefit:57268648520638464
+4685is c=9544774753439744d=57268648520638464
+as:4685decide to decoy
+building route of as:4693
+4693getting all route through it--from DS_AS.AS.routeBuild
+4693marking its decoy route--from DS_AS.AS.getDecoy
+4693is making its decision --from DS_AS.AS.response
+4693 cleanbenefit:732063181901888 decoybenefit:4392379091411328
+4693is c=732063181901888d=4392379091411328
+as:4693decide to decoy
+building route of as:4694
+4694getting all route through it--from DS_AS.AS.routeBuild
+4694marking its decoy route--from DS_AS.AS.getDecoy
+4694is making its decision --from DS_AS.AS.response
+4694 cleanbenefit:37990618964069632 decoybenefit:227943713784417792
+4694is c=37990618964069632d=227943713784417792
+as:4694decide to decoy
+building route of as:4704
+4704getting all route through it--from DS_AS.AS.routeBuild
+4704marking its decoy route--from DS_AS.AS.getDecoy
+4704is making its decision --from DS_AS.AS.response
+4704 cleanbenefit:4178739950816256 decoybenefit:25072439704897536
+4704is c=4178739950816256d=25072439704897536
+as:4704decide to decoy
+building route of as:4711
+4711getting all route through it--from DS_AS.AS.routeBuild
+4711marking its decoy route--from DS_AS.AS.getDecoy
+4711is making its decision --from DS_AS.AS.response
+4711 cleanbenefit:183568815604736 decoybenefit:1101412893628416
+4711is c=183568815604736d=1101412893628416
+as:4711decide to decoy
+building route of as:4713
+4713getting all route through it--from DS_AS.AS.routeBuild
+4713marking its decoy route--from DS_AS.AS.getDecoy
+4713is making its decision --from DS_AS.AS.response
+4713 cleanbenefit:617242417231202852 decoybenefit:3703454503387217112
+4713is c=617242417231202852d=3703454503387217112
+as:4713decide to decoy
+building route of as:4718
+4718getting all route through it--from DS_AS.AS.routeBuild
+4718marking its decoy route--from DS_AS.AS.getDecoy
+4718is making its decision --from DS_AS.AS.response
+4718 cleanbenefit:5404707637248 decoybenefit:32428245823488
+4718is c=5404707637248d=32428245823488
+as:4718decide to decoy
+building route of as:4723
+4723getting all route through it--from DS_AS.AS.routeBuild
+4723marking its decoy route--from DS_AS.AS.getDecoy
+4723is making its decision --from DS_AS.AS.response
+4723 cleanbenefit:604694984843264 decoybenefit:3628169909059584
+4723is c=604694984843264d=3628169909059584
+as:4723decide to decoy
+building route of as:4739
+4739getting all route through it--from DS_AS.AS.routeBuild
+4739marking its decoy route--from DS_AS.AS.getDecoy
+4739is making its decision --from DS_AS.AS.response
+4739 cleanbenefit:1741829385234789972 decoybenefit:10450976311408739832
+4739is c=1741829385234789972d=10450976311408739832
+as:4739decide to decoy
+building route of as:4755
+4755getting all route through it--from DS_AS.AS.routeBuild
+4755marking its decoy route--from DS_AS.AS.getDecoy
+4755is making its decision --from DS_AS.AS.response
+4755 cleanbenefit:1051189634743862504 decoybenefit:6307137808463175024
+4755is c=1051189634743862504d=6307137808463175024
+as:4755decide to decoy
+building route of as:4760
+4760getting all route through it--from DS_AS.AS.routeBuild
+4760marking its decoy route--from DS_AS.AS.getDecoy
+4760is making its decision --from DS_AS.AS.response
+4760 cleanbenefit:43942915793506560 decoybenefit:263657494761039360
+4760is c=43942915793506560d=263657494761039360
+as:4760decide to decoy
+building route of as:4764
+4764getting all route through it--from DS_AS.AS.routeBuild
+4764marking its decoy route--from DS_AS.AS.getDecoy
+4764is making its decision --from DS_AS.AS.response
+4764 cleanbenefit:1206683905810176 decoybenefit:7240103434861056
+4764is c=1206683905810176d=7240103434861056
+as:4764decide to decoy
+building route of as:4773
+4773getting all route through it--from DS_AS.AS.routeBuild
+4773marking its decoy route--from DS_AS.AS.getDecoy
+4773is making its decision --from DS_AS.AS.response
+4773 cleanbenefit:3360429684628736 decoybenefit:20162578107772416
+4773is c=3360429684628736d=20162578107772416
+as:4773decide to decoy
+building route of as:4775
+4775getting all route through it--from DS_AS.AS.routeBuild
+4775marking its decoy route--from DS_AS.AS.getDecoy
+4775is making its decision --from DS_AS.AS.response
+4775 cleanbenefit:67099922011472511 decoybenefit:402599532068835066
+4775is c=67099922011472511d=402599532068835066
+as:4775decide to decoy
+building route of as:4779
+4779getting all route through it--from DS_AS.AS.routeBuild
+4779marking its decoy route--from DS_AS.AS.getDecoy
+4779is making its decision --from DS_AS.AS.response
+4779 cleanbenefit:152648608412928 decoybenefit:915891650477568
+4779is c=152648608412928d=915891650477568
+as:4779decide to decoy
+building route of as:4788
+4788getting all route through it--from DS_AS.AS.routeBuild
+4788marking its decoy route--from DS_AS.AS.getDecoy
+4788is making its decision --from DS_AS.AS.response
+4788 cleanbenefit:435446050252794331 decoybenefit:2612676301516765986
+4788is c=435446050252794331d=2612676301516765986
+as:4788decide to decoy
+building route of as:4800
+4800getting all route through it--from DS_AS.AS.routeBuild
+4800marking its decoy route--from DS_AS.AS.getDecoy
+4800is making its decision --from DS_AS.AS.response
+4800 cleanbenefit:19498440801460454 decoybenefit:116990644808762724
+4800is c=19498440801460454d=116990644808762724
+as:4800decide to decoy
+building route of as:4804
+4804getting all route through it--from DS_AS.AS.routeBuild
+4804marking its decoy route--from DS_AS.AS.getDecoy
+4804is making its decision --from DS_AS.AS.response
+4804 cleanbenefit:134245397148650000 decoybenefit:805472382891900000
+4804is c=134245397148650000d=805472382891900000
+as:4804decide to decoy
+building route of as:4819
+4819getting all route through it--from DS_AS.AS.routeBuild
+4819marking its decoy route--from DS_AS.AS.getDecoy
+4819is making its decision --from DS_AS.AS.response
+4819 cleanbenefit:1048576 decoybenefit:6291456
+4819is c=1048576d=6291456
+as:4819decide to decoy
+building route of as:4826
+4826getting all route through it--from DS_AS.AS.routeBuild
+4826marking its decoy route--from DS_AS.AS.getDecoy
+4826is making its decision --from DS_AS.AS.response
+4826 cleanbenefit:1382126901474459083 decoybenefit:8292761408846754498
+4826is c=1382126901474459083d=8292761408846754498
+as:4826decide to decoy
+building route of as:4844
+4844getting all route through it--from DS_AS.AS.routeBuild
+4844marking its decoy route--from DS_AS.AS.getDecoy
+4844is making its decision --from DS_AS.AS.response
+4844 cleanbenefit:9428544493287476 decoybenefit:56571266959724856
+4844is c=9428544493287476d=56571266959724856
+as:4844decide to decoy
+building route of as:4851
+4851getting all route through it--from DS_AS.AS.routeBuild
+4851marking its decoy route--from DS_AS.AS.getDecoy
+4851is making its decision --from DS_AS.AS.response
+4851 cleanbenefit:348949459053056 decoybenefit:2093696754318336
+4851is c=348949459053056d=2093696754318336
+as:4851decide to decoy
+building route of as:4855
+4855getting all route through it--from DS_AS.AS.routeBuild
+4855marking its decoy route--from DS_AS.AS.getDecoy
+4855is making its decision --from DS_AS.AS.response
+4855 cleanbenefit:172770666758144 decoybenefit:1036624000548864
+4855is c=172770666758144d=1036624000548864
+as:4855decide to decoy
+building route of as:4862
+4862getting all route through it--from DS_AS.AS.routeBuild
+4862marking its decoy route--from DS_AS.AS.getDecoy
+4862is making its decision --from DS_AS.AS.response
+4862 cleanbenefit:39798136177632387 decoybenefit:238788817065794322
+4862is c=39798136177632387d=238788817065794322
+as:4862decide to decoy
+building route of as:4882
+4882getting all route through it--from DS_AS.AS.routeBuild
+4882marking its decoy route--from DS_AS.AS.getDecoy
+4882is making its decision --from DS_AS.AS.response
+4882 cleanbenefit:1638400 decoybenefit:9830400
+4882is c=1638400d=9830400
+as:4882decide to decoy
+building route of as:4913
+4913getting all route through it--from DS_AS.AS.routeBuild
+4913marking its decoy route--from DS_AS.AS.getDecoy
+4913is making its decision --from DS_AS.AS.response
+4913 cleanbenefit:372934702983168 decoybenefit:2237608217899008
+4913is c=372934702983168d=2237608217899008
+as:4913decide to decoy
+building route of as:4922
+4922getting all route through it--from DS_AS.AS.routeBuild
+4922marking its decoy route--from DS_AS.AS.getDecoy
+4922is making its decision --from DS_AS.AS.response
+4922 cleanbenefit:5002078364175616 decoybenefit:30012470185053696
+4922is c=5002078364175616d=30012470185053696
+as:4922decide to decoy
+building route of as:4927
+4927getting all route through it--from DS_AS.AS.routeBuild
+4927marking its decoy route--from DS_AS.AS.getDecoy
+4927is making its decision --from DS_AS.AS.response
+4927 cleanbenefit:577699813266944 decoybenefit:3466198879601664
+4927is c=577699813266944d=3466198879601664
+as:4927decide to decoy
+building route of as:5008
+5008getting all route through it--from DS_AS.AS.routeBuild
+5008marking its decoy route--from DS_AS.AS.getDecoy
+5008is making its decision --from DS_AS.AS.response
+5008 cleanbenefit:6755884874240 decoybenefit:40535309245440
+5008is c=6755884874240d=40535309245440
+as:5008decide to decoy
+building route of as:5017
+5017getting all route through it--from DS_AS.AS.routeBuild
+5017marking its decoy route--from DS_AS.AS.getDecoy
+5017is making its decision --from DS_AS.AS.response
+5017 cleanbenefit:180869278589696 decoybenefit:1085215671538176
+5017is c=180869278589696d=1085215671538176
+as:5017decide to decoy
+building route of as:5056
+5056getting all route through it--from DS_AS.AS.routeBuild
+5056marking its decoy route--from DS_AS.AS.getDecoy
+5056is making its decision --from DS_AS.AS.response
+5056 cleanbenefit:35849097246602104 decoybenefit:215094583479612624
+5056is c=35849097246602104d=215094583479612624
+as:5056decide to decoy
+building route of as:5071
+5071getting all route through it--from DS_AS.AS.routeBuild
+5071marking its decoy route--from DS_AS.AS.getDecoy
+5071is making its decision --from DS_AS.AS.response
+5071 cleanbenefit:3927700488441600 decoybenefit:23566202930649600
+5071is c=3927700488441600d=23566202930649600
+as:5071decide to decoy
+building route of as:5078
+5078getting all route through it--from DS_AS.AS.routeBuild
+5078marking its decoy route--from DS_AS.AS.getDecoy
+5078is making its decision --from DS_AS.AS.response
+5078 cleanbenefit:8893545003419833 decoybenefit:53361270020518998
+5078is c=8893545003419833d=53361270020518998
+as:5078decide to decoy
+building route of as:5089
+5089getting all route through it--from DS_AS.AS.routeBuild
+5089marking its decoy route--from DS_AS.AS.getDecoy
+5089is making its decision --from DS_AS.AS.response
+5089 cleanbenefit:125976432566856244 decoybenefit:755858595401137464
+5089is c=125976432566856244d=755858595401137464
+as:5089decide to decoy
+building route of as:5091
+5091getting all route through it--from DS_AS.AS.routeBuild
+5091marking its decoy route--from DS_AS.AS.getDecoy
+5091is making its decision --from DS_AS.AS.response
+5091 cleanbenefit:6755884874240 decoybenefit:40535309245440
+5091is c=6755884874240d=40535309245440
+as:5091decide to decoy
+building route of as:5385
+5385getting all route through it--from DS_AS.AS.routeBuild
+5385marking its decoy route--from DS_AS.AS.getDecoy
+5385is making its decision --from DS_AS.AS.response
+5385 cleanbenefit:1379452125239552 decoybenefit:8276712751437312
+5385is c=1379452125239552d=8276712751437312
+as:5385decide to decoy
+building route of as:5390
+5390getting all route through it--from DS_AS.AS.routeBuild
+5390marking its decoy route--from DS_AS.AS.getDecoy
+5390is making its decision --from DS_AS.AS.response
+5390 cleanbenefit:4641445572685184 decoybenefit:27848673436111104
+5390is c=4641445572685184d=27848673436111104
+as:5390decide to decoy
+building route of as:5391
+5391getting all route through it--from DS_AS.AS.routeBuild
+5391marking its decoy route--from DS_AS.AS.getDecoy
+5391is making its decision --from DS_AS.AS.response
+5391 cleanbenefit:26284814943451172 decoybenefit:157708889660707032
+5391is c=26284814943451172d=157708889660707032
+as:5391decide to decoy
+building route of as:5392
+5392getting all route through it--from DS_AS.AS.routeBuild
+5392marking its decoy route--from DS_AS.AS.getDecoy
+5392is making its decision --from DS_AS.AS.response
+5392 cleanbenefit:63561117726172934 decoybenefit:381366706357037604
+5392is c=63561117726172934d=381366706357037604
+as:5392decide to decoy
+building route of as:5394
+5394getting all route through it--from DS_AS.AS.routeBuild
+5394marking its decoy route--from DS_AS.AS.getDecoy
+5394is making its decision --from DS_AS.AS.response
+5394 cleanbenefit:248681476564649802 decoybenefit:1492088859387898812
+5394is c=248681476564649802d=1492088859387898812
+as:5394decide to decoy
+building route of as:5396
+5396getting all route through it--from DS_AS.AS.routeBuild
+5396marking its decoy route--from DS_AS.AS.getDecoy
+5396is making its decision --from DS_AS.AS.response
+5396 cleanbenefit:27933727530915344 decoybenefit:167602365185492064
+5396is c=27933727530915344d=167602365185492064
+as:5396decide to decoy
+building route of as:5397
+5397getting all route through it--from DS_AS.AS.routeBuild
+5397marking its decoy route--from DS_AS.AS.getDecoy
+5397is making its decision --from DS_AS.AS.response
+5397 cleanbenefit:261855332024576 decoybenefit:1571131992147456
+5397is c=261855332024576d=1571131992147456
+as:5397decide to decoy
+building route of as:5403
+5403getting all route through it--from DS_AS.AS.routeBuild
+5403marking its decoy route--from DS_AS.AS.getDecoy
+5403is making its decision --from DS_AS.AS.response
+5403 cleanbenefit:993424002215936 decoybenefit:5960544013295616
+5403is c=993424002215936d=5960544013295616
+as:5403decide to decoy
+building route of as:5404
+5404getting all route through it--from DS_AS.AS.routeBuild
+5404marking its decoy route--from DS_AS.AS.getDecoy
+5404is making its decision --from DS_AS.AS.response
+5404 cleanbenefit:304142291103744 decoybenefit:1824853746622464
+5404is c=304142291103744d=1824853746622464
+as:5404decide to decoy
+building route of as:5409
+5409getting all route through it--from DS_AS.AS.routeBuild
+5409marking its decoy route--from DS_AS.AS.getDecoy
+5409is making its decision --from DS_AS.AS.response
+5409 cleanbenefit:1803267392347136 decoybenefit:10819604354082816
+5409is c=1803267392347136d=10819604354082816
+as:5409decide to decoy
+building route of as:5410
+5410getting all route through it--from DS_AS.AS.routeBuild
+5410marking its decoy route--from DS_AS.AS.getDecoy
+5410is making its decision --from DS_AS.AS.response
+5410 cleanbenefit:92944693992665024 decoybenefit:557668163955990144
+5410is c=92944693992665024d=557668163955990144
+as:5410decide to decoy
+building route of as:5413
+5413getting all route through it--from DS_AS.AS.routeBuild
+5413marking its decoy route--from DS_AS.AS.getDecoy
+5413is making its decision --from DS_AS.AS.response
+5413 cleanbenefit:32697737677758962 decoybenefit:196186426066553772
+5413is c=32697737677758962d=196186426066553772
+as:5413decide to decoy
+building route of as:5429
+5429getting all route through it--from DS_AS.AS.routeBuild
+5429marking its decoy route--from DS_AS.AS.getDecoy
+5429is making its decision --from DS_AS.AS.response
+5429 cleanbenefit:186268352488704 decoybenefit:1117610114932224
+5429is c=186268352488704d=1117610114932224
+as:5429decide to decoy
+building route of as:5430
+5430getting all route through it--from DS_AS.AS.routeBuild
+5430marking its decoy route--from DS_AS.AS.getDecoy
+5430is making its decision --from DS_AS.AS.response
+5430 cleanbenefit:13241449156540672 decoybenefit:79448694939244032
+5430is c=13241449156540672d=79448694939244032
+as:5430decide to decoy
+building route of as:5432
+5432getting all route through it--from DS_AS.AS.routeBuild
+5432marking its decoy route--from DS_AS.AS.getDecoy
+5432is making its decision --from DS_AS.AS.response
+5432 cleanbenefit:46502446347222528 decoybenefit:279014678083335168
+5432is c=46502446347222528d=279014678083335168
+as:5432decide to decoy
+building route of as:5433
+5433getting all route through it--from DS_AS.AS.routeBuild
+5433marking its decoy route--from DS_AS.AS.getDecoy
+5433is making its decision --from DS_AS.AS.response
+5433 cleanbenefit:75587232766976 decoybenefit:453523396601856
+5433is c=75587232766976d=453523396601856
+as:5433decide to decoy
+building route of as:5439
+5439getting all route through it--from DS_AS.AS.routeBuild
+5439marking its decoy route--from DS_AS.AS.getDecoy
+5439is making its decision --from DS_AS.AS.response
+5439 cleanbenefit:5399091462656 decoybenefit:32394548775936
+5439is c=5399091462656d=32394548775936
+as:5439decide to decoy
+building route of as:5459
+5459getting all route through it--from DS_AS.AS.routeBuild
+5459marking its decoy route--from DS_AS.AS.getDecoy
+5459is making its decision --from DS_AS.AS.response
+5459 cleanbenefit:62089520166656 decoybenefit:372537120999936
+5459is c=62089520166656d=372537120999936
+as:5459decide to decoy
+building route of as:5463
+5463getting all route through it--from DS_AS.AS.routeBuild
+5463marking its decoy route--from DS_AS.AS.getDecoy
+5463is making its decision --from DS_AS.AS.response
+5463 cleanbenefit:71368704 decoybenefit:428212224
+5463is c=71368704d=428212224
+as:5463decide to decoy
+building route of as:5466
+5466getting all route through it--from DS_AS.AS.routeBuild
+5466marking its decoy route--from DS_AS.AS.getDecoy
+5466is making its decision --from DS_AS.AS.response
+5466 cleanbenefit:30772563712843264 decoybenefit:184635382277059584
+5466is c=30772563712843264d=184635382277059584
+as:5466decide to decoy
+building route of as:5467
+5467getting all route through it--from DS_AS.AS.routeBuild
+5467marking its decoy route--from DS_AS.AS.getDecoy
+5467is making its decision --from DS_AS.AS.response
+5467 cleanbenefit:491315176142336 decoybenefit:2947891056854016
+5467is c=491315176142336d=2947891056854016
+as:5467decide to decoy
+building route of as:5483
+5483getting all route through it--from DS_AS.AS.routeBuild
+5483marking its decoy route--from DS_AS.AS.getDecoy
+5483is making its decision --from DS_AS.AS.response
+5483 cleanbenefit:41285438714088096 decoybenefit:247712632284528576
+5483is c=41285438714088096d=247712632284528576
+as:5483decide to decoy
+building route of as:5495
+5495getting all route through it--from DS_AS.AS.routeBuild
+5495marking its decoy route--from DS_AS.AS.getDecoy
+5495is making its decision --from DS_AS.AS.response
+5495 cleanbenefit:312613670300256 decoybenefit:1875682021801536
+5495is c=312613670300256d=1875682021801536
+as:5495decide to decoy
+building route of as:5500
+5500getting all route through it--from DS_AS.AS.routeBuild
+5500marking its decoy route--from DS_AS.AS.getDecoy
+5500is making its decision --from DS_AS.AS.response
+5500 cleanbenefit:634665219286016 decoybenefit:3807991315716096
+5500is c=634665219286016d=3807991315716096
+as:5500decide to decoy
+building route of as:5503
+5503getting all route through it--from DS_AS.AS.routeBuild
+5503marking its decoy route--from DS_AS.AS.getDecoy
+5503is making its decision --from DS_AS.AS.response
+5503 cleanbenefit:8427343410622976 decoybenefit:50564060463737856
+5503is c=8427343410622976d=50564060463737856
+as:5503decide to decoy
+building route of as:5505
+5505getting all route through it--from DS_AS.AS.routeBuild
+5505marking its decoy route--from DS_AS.AS.getDecoy
+5505is making its decision --from DS_AS.AS.response
+5505 cleanbenefit:169111171787520 decoybenefit:1014667030725120
+5505is c=169111171787520d=1014667030725120
+as:5505decide to decoy
+building route of as:5518
+5518getting all route through it--from DS_AS.AS.routeBuild
+5518marking its decoy route--from DS_AS.AS.getDecoy
+5518is making its decision --from DS_AS.AS.response
+5518 cleanbenefit:9274447611438048 decoybenefit:55646685668628288
+5518is c=9274447611438048d=55646685668628288
+as:5518decide to decoy
+building route of as:5523
+5523getting all route through it--from DS_AS.AS.routeBuild
+5523marking its decoy route--from DS_AS.AS.getDecoy
+5523is making its decision --from DS_AS.AS.response
+5523 cleanbenefit:801759340267776 decoybenefit:4810556041606656
+5523is c=801759340267776d=4810556041606656
+as:5523decide to decoy
+building route of as:5524
+5524getting all route through it--from DS_AS.AS.routeBuild
+5524marking its decoy route--from DS_AS.AS.getDecoy
+5524is making its decision --from DS_AS.AS.response
+5524 cleanbenefit:255298851758004 decoybenefit:1531793110548024
+5524is c=255298851758004d=1531793110548024
+as:5524decide to decoy
+building route of as:5526
+5526getting all route through it--from DS_AS.AS.routeBuild
+5526marking its decoy route--from DS_AS.AS.getDecoy
+5526is making its decision --from DS_AS.AS.response
+5526 cleanbenefit:430217328532480 decoybenefit:2581303971194880
+5526is c=430217328532480d=2581303971194880
+as:5526decide to decoy
+building route of as:5537
+5537getting all route through it--from DS_AS.AS.routeBuild
+5537marking its decoy route--from DS_AS.AS.getDecoy
+5537is making its decision --from DS_AS.AS.response
+5537 cleanbenefit:876266002264064 decoybenefit:5257596013584384
+5537is c=876266002264064d=5257596013584384
+as:5537decide to decoy
+building route of as:5538
+5538getting all route through it--from DS_AS.AS.routeBuild
+5538marking its decoy route--from DS_AS.AS.getDecoy
+5538is making its decision --from DS_AS.AS.response
+5538 cleanbenefit:510616231915520 decoybenefit:3063697391493120
+5538is c=510616231915520d=3063697391493120
+as:5538decide to decoy
+building route of as:5539
+5539getting all route through it--from DS_AS.AS.routeBuild
+5539marking its decoy route--from DS_AS.AS.getDecoy
+5539is making its decision --from DS_AS.AS.response
+5539 cleanbenefit:1498902635180864 decoybenefit:8993415811085184
+5539is c=1498902635180864d=8993415811085184
+as:5539decide to decoy
+building route of as:5541
+5541getting all route through it--from DS_AS.AS.routeBuild
+5541marking its decoy route--from DS_AS.AS.getDecoy
+5541is making its decision --from DS_AS.AS.response
+5541 cleanbenefit:4424410158180352 decoybenefit:26546460949082112
+5541is c=4424410158180352d=26546460949082112
+as:5541decide to decoy
+building route of as:5550
+5550getting all route through it--from DS_AS.AS.routeBuild
+5550marking its decoy route--from DS_AS.AS.getDecoy
+5550is making its decision --from DS_AS.AS.response
+5550 cleanbenefit:29483859968 decoybenefit:176903159808
+5550is c=29483859968d=176903159808
+as:5550decide to decoy
+building route of as:5563
+5563getting all route through it--from DS_AS.AS.routeBuild
+5563marking its decoy route--from DS_AS.AS.getDecoy
+5563is making its decision --from DS_AS.AS.response
+5563 cleanbenefit:6633930651602688 decoybenefit:39803583909616128
+5563is c=6633930651602688d=39803583909616128
+as:5563decide to decoy
+building route of as:5564
+5564getting all route through it--from DS_AS.AS.routeBuild
+5564marking its decoy route--from DS_AS.AS.getDecoy
+5564is making its decision --from DS_AS.AS.response
+5564 cleanbenefit:172770666758144 decoybenefit:1036624000548864
+5564is c=172770666758144d=1036624000548864
+as:5564decide to decoy
+building route of as:5568
+5568getting all route through it--from DS_AS.AS.routeBuild
+5568marking its decoy route--from DS_AS.AS.getDecoy
+5568is making its decision --from DS_AS.AS.response
+5568 cleanbenefit:505487664874304 decoybenefit:3032925989245824
+5568is c=505487664874304d=3032925989245824
+as:5568decide to decoy
+building route of as:5578
+5578getting all route through it--from DS_AS.AS.routeBuild
+5578marking its decoy route--from DS_AS.AS.getDecoy
+5578is making its decision --from DS_AS.AS.response
+5578 cleanbenefit:17456701133255552 decoybenefit:104740206799533312
+5578is c=17456701133255552d=104740206799533312
+as:5578decide to decoy
+building route of as:5582
+5582getting all route through it--from DS_AS.AS.routeBuild
+5582marking its decoy route--from DS_AS.AS.getDecoy
+5582is making its decision --from DS_AS.AS.response
+5582 cleanbenefit:10809417371648 decoybenefit:64856504229888
+5582is c=10809417371648d=64856504229888
+as:5582decide to decoy
+building route of as:5583
+5583getting all route through it--from DS_AS.AS.routeBuild
+5583marking its decoy route--from DS_AS.AS.getDecoy
+5583is making its decision --from DS_AS.AS.response
+5583 cleanbenefit:29092269279772476 decoybenefit:174553615678634856
+5583is c=29092269279772476d=174553615678634856
+as:5583decide to decoy
+building route of as:5587
+5587getting all route through it--from DS_AS.AS.routeBuild
+5587marking its decoy route--from DS_AS.AS.getDecoy
+5587is making its decision --from DS_AS.AS.response
+5587 cleanbenefit:1668294313191936 decoybenefit:10009765879151616
+5587is c=1668294313191936d=10009765879151616
+as:5587decide to decoy
+building route of as:5588
+5588getting all route through it--from DS_AS.AS.routeBuild
+5588marking its decoy route--from DS_AS.AS.getDecoy
+5588is making its decision --from DS_AS.AS.response
+5588 cleanbenefit:72940944408967342 decoybenefit:437645666453804052
+5588is c=72940944408967342d=437645666453804052
+as:5588decide to decoy
+building route of as:5602
+5602getting all route through it--from DS_AS.AS.routeBuild
+5602marking its decoy route--from DS_AS.AS.getDecoy
+5602is making its decision --from DS_AS.AS.response
+5602 cleanbenefit:3975785206049754 decoybenefit:23854711236298524
+5602is c=3975785206049754d=23854711236298524
+as:5602decide to decoy
+building route of as:5603
+5603getting all route through it--from DS_AS.AS.routeBuild
+5603marking its decoy route--from DS_AS.AS.getDecoy
+5603is making its decision --from DS_AS.AS.response
+5603 cleanbenefit:15497080527340544 decoybenefit:92982483164043264
+5603is c=15497080527340544d=92982483164043264
+as:5603decide to decoy
+building route of as:5605
+5605getting all route through it--from DS_AS.AS.routeBuild
+5605marking its decoy route--from DS_AS.AS.getDecoy
+5605is making its decision --from DS_AS.AS.response
+5605 cleanbenefit:2694187132855808 decoybenefit:16165122797134848
+5605is c=2694187132855808d=16165122797134848
+as:5605decide to decoy
+building route of as:5607
+5607getting all route through it--from DS_AS.AS.routeBuild
+5607marking its decoy route--from DS_AS.AS.getDecoy
+5607is making its decision --from DS_AS.AS.response
+5607 cleanbenefit:97166834879535104 decoybenefit:583001009277210624
+5607is c=97166834879535104d=583001009277210624
+as:5607decide to decoy
+building route of as:5610
+5610getting all route through it--from DS_AS.AS.routeBuild
+5610marking its decoy route--from DS_AS.AS.getDecoy
+5610is making its decision --from DS_AS.AS.response
+5610 cleanbenefit:18567662726609152 decoybenefit:111405976359654912
+5610is c=18567662726609152d=111405976359654912
+as:5610decide to decoy
+building route of as:5617
+5617getting all route through it--from DS_AS.AS.routeBuild
+5617marking its decoy route--from DS_AS.AS.getDecoy
+5617is making its decision --from DS_AS.AS.response
+5617 cleanbenefit:68375796084133552 decoybenefit:410254776504801312
+5617is c=68375796084133552d=410254776504801312
+as:5617decide to decoy
+building route of as:5631
+5631getting all route through it--from DS_AS.AS.routeBuild
+5631marking its decoy route--from DS_AS.AS.getDecoy
+5631is making its decision --from DS_AS.AS.response
+5631 cleanbenefit:288850656955136 decoybenefit:1733103941730816
+5631is c=288850656955136d=1733103941730816
+as:5631decide to decoy
+building route of as:5645
+5645getting all route through it--from DS_AS.AS.routeBuild
+5645marking its decoy route--from DS_AS.AS.getDecoy
+5645is making its decision --from DS_AS.AS.response
+5645 cleanbenefit:40681619645151517 decoybenefit:244089717870909102
+5645is c=40681619645151517d=244089717870909102
+as:5645decide to decoy
+building route of as:5650
+5650getting all route through it--from DS_AS.AS.routeBuild
+5650marking its decoy route--from DS_AS.AS.getDecoy
+5650is making its decision --from DS_AS.AS.response
+5650 cleanbenefit:176527069308482224 decoybenefit:1059162415850893344
+5650is c=176527069308482224d=1059162415850893344
+as:5650decide to decoy
+building route of as:5661
+5661getting all route through it--from DS_AS.AS.routeBuild
+5661marking its decoy route--from DS_AS.AS.getDecoy
+5661is making its decision --from DS_AS.AS.response
+5661 cleanbenefit:345905516642304 decoybenefit:2075433099853824
+5661is c=345905516642304d=2075433099853824
+as:5661decide to decoy
+building route of as:5662
+5662getting all route through it--from DS_AS.AS.routeBuild
+5662marking its decoy route--from DS_AS.AS.getDecoy
+5662is making its decision --from DS_AS.AS.response
+5662 cleanbenefit:205165107006464 decoybenefit:1230990642038784
+5662is c=205165107006464d=1230990642038784
+as:5662decide to decoy
+building route of as:5690
+5690getting all route through it--from DS_AS.AS.routeBuild
+5690marking its decoy route--from DS_AS.AS.getDecoy
+5690is making its decision --from DS_AS.AS.response
+5690 cleanbenefit:1394921877373952 decoybenefit:8369531264243712
+5690is c=1394921877373952d=8369531264243712
+as:5690decide to decoy
+building route of as:5697
+5697getting all route through it--from DS_AS.AS.routeBuild
+5697marking its decoy route--from DS_AS.AS.getDecoy
+5697is making its decision --from DS_AS.AS.response
+5697 cleanbenefit:1048576 decoybenefit:6291456
+5697is c=1048576d=6291456
+as:5697decide to decoy
+building route of as:5713
+5713getting all route through it--from DS_AS.AS.routeBuild
+5713marking its decoy route--from DS_AS.AS.getDecoy
+5713is making its decision --from DS_AS.AS.response
+5713 cleanbenefit:44821739292275320 decoybenefit:268930435753651920
+5713is c=44821739292275320d=268930435753651920
+as:5713decide to decoy
+building route of as:5715
+5715getting all route through it--from DS_AS.AS.routeBuild
+5715marking its decoy route--from DS_AS.AS.getDecoy
+5715is making its decision --from DS_AS.AS.response
+5715 cleanbenefit:20435586962398976 decoybenefit:122613521774393856
+5715is c=20435586962398976d=122613521774393856
+as:5715decide to decoy
+building route of as:5760
+5760getting all route through it--from DS_AS.AS.routeBuild
+5760marking its decoy route--from DS_AS.AS.getDecoy
+5760is making its decision --from DS_AS.AS.response
+5760 cleanbenefit:26176651264 decoybenefit:157059907584
+5760is c=26176651264d=157059907584
+as:5760decide to decoy
+building route of as:5769
+5769getting all route through it--from DS_AS.AS.routeBuild
+5769marking its decoy route--from DS_AS.AS.getDecoy
+5769is making its decision --from DS_AS.AS.response
+5769 cleanbenefit:182289699810664791 decoybenefit:1093738198863988746
+5769is c=182289699810664791d=1093738198863988746
+as:5769decide to decoy
+building route of as:5784
+5784getting all route through it--from DS_AS.AS.routeBuild
+5784marking its decoy route--from DS_AS.AS.getDecoy
+5784is making its decision --from DS_AS.AS.response
+5784 cleanbenefit:67108864 decoybenefit:402653184
+5784is c=67108864d=402653184
+as:5784decide to decoy
+building route of as:6057
+6057getting all route through it--from DS_AS.AS.routeBuild
+6057marking its decoy route--from DS_AS.AS.getDecoy
+6057is making its decision --from DS_AS.AS.response
+6057 cleanbenefit:24197815575917952 decoybenefit:145186893455507712
+6057is c=24197815575917952d=145186893455507712
+as:6057decide to decoy
+building route of as:6067
+6067getting all route through it--from DS_AS.AS.routeBuild
+6067marking its decoy route--from DS_AS.AS.getDecoy
+6067is making its decision --from DS_AS.AS.response
+6067 cleanbenefit:569601871323904 decoybenefit:3417611227943424
+6067is c=569601871323904d=3417611227943424
+as:6067decide to decoy
+building route of as:6071
+6071getting all route through it--from DS_AS.AS.routeBuild
+6071marking its decoy route--from DS_AS.AS.getDecoy
+6071is making its decision --from DS_AS.AS.response
+6071 cleanbenefit:67118301184 decoybenefit:402709807104
+6071is c=67118301184d=402709807104
+as:6071decide to decoy
+building route of as:6072
+6072getting all route through it--from DS_AS.AS.routeBuild
+6072marking its decoy route--from DS_AS.AS.getDecoy
+6072is making its decision --from DS_AS.AS.response
+6072 cleanbenefit:2105632179263644 decoybenefit:12633793075581864
+6072is c=2105632179263644d=12633793075581864
+as:6072decide to decoy
+building route of as:6079
+6079getting all route through it--from DS_AS.AS.routeBuild
+6079marking its decoy route--from DS_AS.AS.getDecoy
+6079is making its decision --from DS_AS.AS.response
+6079 cleanbenefit:78035991497186345 decoybenefit:468215948983118070
+6079is c=78035991497186345d=468215948983118070
+as:6079decide to decoy
+building route of as:6082
+6082getting all route through it--from DS_AS.AS.routeBuild
+6082marking its decoy route--from DS_AS.AS.getDecoy
+6082is making its decision --from DS_AS.AS.response
+6082 cleanbenefit:1960905136479668 decoybenefit:11765430818878008
+6082is c=1960905136479668d=11765430818878008
+as:6082decide to decoy
+building route of as:6083
+6083getting all route through it--from DS_AS.AS.routeBuild
+6083marking its decoy route--from DS_AS.AS.getDecoy
+6083is making its decision --from DS_AS.AS.response
+6083 cleanbenefit:26995452070400 decoybenefit:161972712422400
+6083is c=26995452070400d=161972712422400
+as:6083decide to decoy
+building route of as:6095
+6095getting all route through it--from DS_AS.AS.routeBuild
+6095marking its decoy route--from DS_AS.AS.getDecoy
+6095is making its decision --from DS_AS.AS.response
+6095 cleanbenefit:262144 decoybenefit:1572864
+6095is c=262144d=1572864
+as:6095decide to decoy
+building route of as:6122
+6122getting all route through it--from DS_AS.AS.routeBuild
+6122marking its decoy route--from DS_AS.AS.getDecoy
+6122is making its decision --from DS_AS.AS.response
+6122 cleanbenefit:6284187589810176 decoybenefit:37705125538861056
+6122is c=6284187589810176d=37705125538861056
+as:6122decide to decoy
+building route of as:6128
+6128getting all route through it--from DS_AS.AS.routeBuild
+6128marking its decoy route--from DS_AS.AS.getDecoy
+6128is making its decision --from DS_AS.AS.response
+6128 cleanbenefit:83083454150998008 decoybenefit:498500724905988048
+6128is c=83083454150998008d=498500724905988048
+as:6128decide to decoy
+building route of as:6130
+6130getting all route through it--from DS_AS.AS.routeBuild
+6130marking its decoy route--from DS_AS.AS.getDecoy
+6130is making its decision --from DS_AS.AS.response
+6130 cleanbenefit:2640768023706176 decoybenefit:15844608142237056
+6130is c=2640768023706176d=15844608142237056
+as:6130decide to decoy
+building route of as:6142
+6142getting all route through it--from DS_AS.AS.routeBuild
+6142marking its decoy route--from DS_AS.AS.getDecoy
+6142is making its decision --from DS_AS.AS.response
+6142 cleanbenefit:303038464 decoybenefit:1818230784
+6142is c=303038464d=1818230784
+as:6142decide to decoy
+building route of as:6169
+6169getting all route through it--from DS_AS.AS.routeBuild
+6169marking its decoy route--from DS_AS.AS.getDecoy
+6169is making its decision --from DS_AS.AS.response
+6169 cleanbenefit:19593793569536 decoybenefit:117562761417216
+6169is c=19593793569536d=117562761417216
+as:6169decide to decoy
+building route of as:6181
+6181getting all route through it--from DS_AS.AS.routeBuild
+6181marking its decoy route--from DS_AS.AS.getDecoy
+6181is making its decision --from DS_AS.AS.response
+6181 cleanbenefit:61258703381645992 decoybenefit:367552220289875952
+6181is c=61258703381645992d=367552220289875952
+as:6181decide to decoy
+building route of as:6220
+6220getting all route through it--from DS_AS.AS.routeBuild
+6220marking its decoy route--from DS_AS.AS.getDecoy
+6220is making its decision --from DS_AS.AS.response
+6220 cleanbenefit:279687164535808 decoybenefit:1678122987214848
+6220is c=279687164535808d=1678122987214848
+as:6220decide to decoy
+building route of as:6267
+6267getting all route through it--from DS_AS.AS.routeBuild
+6267marking its decoy route--from DS_AS.AS.getDecoy
+6267is making its decision --from DS_AS.AS.response
+6267 cleanbenefit:21827584 decoybenefit:130965504
+6267is c=21827584d=130965504
+as:6267decide to decoy
+building route of as:6295
+6295getting all route through it--from DS_AS.AS.routeBuild
+6295marking its decoy route--from DS_AS.AS.getDecoy
+6295is making its decision --from DS_AS.AS.response
+6295 cleanbenefit:480517087064576 decoybenefit:2883102522387456
+6295is c=480517087064576d=2883102522387456
+as:6295decide to decoy
+building route of as:6307
+6307getting all route through it--from DS_AS.AS.routeBuild
+6307marking its decoy route--from DS_AS.AS.getDecoy
+6307is making its decision --from DS_AS.AS.response
+6307 cleanbenefit:6263943822238536 decoybenefit:37583662933431216
+6307is c=6263943822238536d=37583662933431216
+as:6307decide to decoy
+building route of as:6315
+6315getting all route through it--from DS_AS.AS.routeBuild
+6315marking its decoy route--from DS_AS.AS.getDecoy
+6315is making its decision --from DS_AS.AS.response
+6315 cleanbenefit:1025847736094720 decoybenefit:6155086416568320
+6315is c=1025847736094720d=6155086416568320
+as:6315decide to decoy
+building route of as:6325
+6325getting all route through it--from DS_AS.AS.routeBuild
+6325marking its decoy route--from DS_AS.AS.getDecoy
+6325is making its decision --from DS_AS.AS.response
+6325 cleanbenefit:18081316699294464 decoybenefit:108487900195766784
+6325is c=18081316699294464d=108487900195766784
+as:6325decide to decoy
+building route of as:6327
+6327getting all route through it--from DS_AS.AS.routeBuild
+6327marking its decoy route--from DS_AS.AS.getDecoy
+6327is making its decision --from DS_AS.AS.response
+6327 cleanbenefit:158463295831147424 decoybenefit:950779774986884544
+6327is c=158463295831147424d=950779774986884544
+as:6327decide to decoy
+building route of as:6336
+6336getting all route through it--from DS_AS.AS.routeBuild
+6336marking its decoy route--from DS_AS.AS.getDecoy
+6336is making its decision --from DS_AS.AS.response
+6336 cleanbenefit:242958596774400 decoybenefit:1457751580646400
+6336is c=242958596774400d=1457751580646400
+as:6336decide to decoy
+building route of as:6368
+6368getting all route through it--from DS_AS.AS.routeBuild
+6368marking its decoy route--from DS_AS.AS.getDecoy
+6368is making its decision --from DS_AS.AS.response
+6368 cleanbenefit:140376207635456 decoybenefit:842257245812736
+6368is c=140376207635456d=842257245812736
+as:6368decide to decoy
+building route of as:6391
+6391getting all route through it--from DS_AS.AS.routeBuild
+6391marking its decoy route--from DS_AS.AS.getDecoy
+6391is making its decision --from DS_AS.AS.response
+6391 cleanbenefit:12730011648 decoybenefit:76380069888
+6391is c=12730011648d=76380069888
+as:6391decide to decoy
+building route of as:6404
+6404getting all route through it--from DS_AS.AS.routeBuild
+6404marking its decoy route--from DS_AS.AS.getDecoy
+6404is making its decision --from DS_AS.AS.response
+6404 cleanbenefit:1804012808626934 decoybenefit:10824076851761604
+6404is c=1804012808626934d=10824076851761604
+as:6404decide to decoy
+building route of as:6407
+6407getting all route through it--from DS_AS.AS.routeBuild
+6407marking its decoy route--from DS_AS.AS.getDecoy
+6407is making its decision --from DS_AS.AS.response
+6407 cleanbenefit:47272444106299456 decoybenefit:283634664637796736
+6407is c=47272444106299456d=283634664637796736
+as:6407decide to decoy
+building route of as:6412
+6412getting all route through it--from DS_AS.AS.routeBuild
+6412marking its decoy route--from DS_AS.AS.getDecoy
+6412is making its decision --from DS_AS.AS.response
+6412 cleanbenefit:2702838187268977 decoybenefit:16217029123613862
+6412is c=2702838187268977d=16217029123613862
+as:6412decide to decoy
+building route of as:6421
+6421getting all route through it--from DS_AS.AS.routeBuild
+6421marking its decoy route--from DS_AS.AS.getDecoy
+6421is making its decision --from DS_AS.AS.response
+6421 cleanbenefit:42211791313409971 decoybenefit:253270747880459826
+6421is c=42211791313409971d=253270747880459826
+as:6421decide to decoy
+building route of as:6423
+6423getting all route through it--from DS_AS.AS.routeBuild
+6423marking its decoy route--from DS_AS.AS.getDecoy
+6423is making its decision --from DS_AS.AS.response
+6423 cleanbenefit:1892843347983104 decoybenefit:11357060087898624
+6423is c=1892843347983104d=11357060087898624
+as:6423decide to decoy
+building route of as:6456
+6456getting all route through it--from DS_AS.AS.routeBuild
+6456marking its decoy route--from DS_AS.AS.getDecoy
+6456is making its decision --from DS_AS.AS.response
+6456 cleanbenefit:10798182401024 decoybenefit:64789094406144
+6456is c=10798182401024d=64789094406144
+as:6456decide to decoy
+building route of as:6459
+6459getting all route through it--from DS_AS.AS.routeBuild
+6459marking its decoy route--from DS_AS.AS.getDecoy
+6459is making its decision --from DS_AS.AS.response
+6459 cleanbenefit:552842394846720 decoybenefit:3317054369080320
+6459is c=552842394846720d=3317054369080320
+as:6459decide to decoy
+building route of as:6468
+6468getting all route through it--from DS_AS.AS.routeBuild
+6468marking its decoy route--from DS_AS.AS.getDecoy
+6468is making its decision --from DS_AS.AS.response
+6468 cleanbenefit:52695988919808 decoybenefit:316175933518848
+6468is c=52695988919808d=316175933518848
+as:6468decide to decoy
+building route of as:6473
+6473getting all route through it--from DS_AS.AS.routeBuild
+6473marking its decoy route--from DS_AS.AS.getDecoy
+6473is making its decision --from DS_AS.AS.response
+6473 cleanbenefit:43192717021184 decoybenefit:259156302127104
+6473is c=43192717021184d=259156302127104
+as:6473decide to decoy
+building route of as:6493
+6493getting all route through it--from DS_AS.AS.routeBuild
+6493marking its decoy route--from DS_AS.AS.getDecoy
+6493is making its decision --from DS_AS.AS.response
+6493 cleanbenefit:339738624 decoybenefit:2038431744
+6493is c=339738624d=2038431744
+as:6493decide to decoy
+building route of as:6505
+6505getting all route through it--from DS_AS.AS.routeBuild
+6505marking its decoy route--from DS_AS.AS.getDecoy
+6505is making its decision --from DS_AS.AS.response
+6505 cleanbenefit:337442208800000 decoybenefit:2024653252800000
+6505is c=337442208800000d=2024653252800000
+as:6505decide to decoy
+building route of as:6507
+6507getting all route through it--from DS_AS.AS.routeBuild
+6507marking its decoy route--from DS_AS.AS.getDecoy
+6507is making its decision --from DS_AS.AS.response
+6507 cleanbenefit:92181733074943945 decoybenefit:553090398449663670
+6507is c=92181733074943945d=553090398449663670
+as:6507decide to decoy
+building route of as:6509
+6509getting all route through it--from DS_AS.AS.routeBuild
+6509marking its decoy route--from DS_AS.AS.getDecoy
+6509is making its decision --from DS_AS.AS.response
+6509 cleanbenefit:13024216820727561 decoybenefit:78145300924365366
+6509is c=13024216820727561d=78145300924365366
+as:6509decide to decoy
+building route of as:6614
+6614getting all route through it--from DS_AS.AS.routeBuild
+6614marking its decoy route--from DS_AS.AS.getDecoy
+6614is making its decision --from DS_AS.AS.response
+6614 cleanbenefit:12510987147590400 decoybenefit:75065922885542400
+6614is c=12510987147590400d=75065922885542400
+as:6614decide to decoy
+building route of as:6619
+6619getting all route through it--from DS_AS.AS.routeBuild
+6619marking its decoy route--from DS_AS.AS.getDecoy
+6619is making its decision --from DS_AS.AS.response
+6619 cleanbenefit:156237769657355768 decoybenefit:937426617944134608
+6619is c=156237769657355768d=937426617944134608
+as:6619decide to decoy
+building route of as:6621
+6621getting all route through it--from DS_AS.AS.routeBuild
+6621marking its decoy route--from DS_AS.AS.getDecoy
+6621is making its decision --from DS_AS.AS.response
+6621 cleanbenefit:22828376539932448 decoybenefit:136970259239594688
+6621is c=22828376539932448d=136970259239594688
+as:6621decide to decoy
+building route of as:6623
+6623getting all route through it--from DS_AS.AS.routeBuild
+6623marking its decoy route--from DS_AS.AS.getDecoy
+6623is making its decision --from DS_AS.AS.response
+6623 cleanbenefit:531154005665296 decoybenefit:3186924033991776
+6623is c=531154005665296d=3186924033991776
+as:6623decide to decoy
+building route of as:6643
+6643getting all route through it--from DS_AS.AS.routeBuild
+6643marking its decoy route--from DS_AS.AS.getDecoy
+6643is making its decision --from DS_AS.AS.response
+6643 cleanbenefit:170448025960384 decoybenefit:1022688155762304
+6643is c=170448025960384d=1022688155762304
+as:6643decide to decoy
+building route of as:6648
+6648getting all route through it--from DS_AS.AS.routeBuild
+6648marking its decoy route--from DS_AS.AS.getDecoy
+6648is making its decision --from DS_AS.AS.response
+6648 cleanbenefit:5779263759824384 decoybenefit:34675582558946304
+6648is c=5779263759824384d=34675582558946304
+as:6648decide to decoy
+building route of as:6653
+6653getting all route through it--from DS_AS.AS.routeBuild
+6653marking its decoy route--from DS_AS.AS.getDecoy
+6653is making its decision --from DS_AS.AS.response
+6653 cleanbenefit:2505122121752576 decoybenefit:15030732730515456
+6653is c=2505122121752576d=15030732730515456
+as:6653decide to decoy
+building route of as:6659
+6659getting all route through it--from DS_AS.AS.routeBuild
+6659marking its decoy route--from DS_AS.AS.getDecoy
+6659is making its decision --from DS_AS.AS.response
+6659 cleanbenefit:8832265517261312 decoybenefit:52993593103567872
+6659is c=8832265517261312d=52993593103567872
+as:6659decide to decoy
+building route of as:6660
+6660getting all route through it--from DS_AS.AS.routeBuild
+6660marking its decoy route--from DS_AS.AS.getDecoy
+6660is making its decision --from DS_AS.AS.response
+6660 cleanbenefit:21828276871365120 decoybenefit:130969661228190720
+6660is c=21828276871365120d=130969661228190720
+as:6660decide to decoy
+building route of as:6661
+6661getting all route through it--from DS_AS.AS.routeBuild
+6661marking its decoy route--from DS_AS.AS.getDecoy
+6661is making its decision --from DS_AS.AS.response
+6661 cleanbenefit:216109240650139197 decoybenefit:1296655443900835182
+6661is c=216109240650139197d=1296655443900835182
+as:6661decide to decoy
+building route of as:6663
+6663getting all route through it--from DS_AS.AS.routeBuild
+6663marking its decoy route--from DS_AS.AS.getDecoy
+6663is making its decision --from DS_AS.AS.response
+6663 cleanbenefit:129985662951129932 decoybenefit:779913977706779592
+6663is c=129985662951129932d=779913977706779592
+as:6663decide to decoy
+building route of as:6673
+6673getting all route through it--from DS_AS.AS.routeBuild
+6673marking its decoy route--from DS_AS.AS.getDecoy
+6673is making its decision --from DS_AS.AS.response
+6673 cleanbenefit:86546092633856 decoybenefit:519276555803136
+6673is c=86546092633856d=519276555803136
+as:6673decide to decoy
+building route of as:6677
+6677getting all route through it--from DS_AS.AS.routeBuild
+6677marking its decoy route--from DS_AS.AS.getDecoy
+6677is making its decision --from DS_AS.AS.response
+6677 cleanbenefit:2491624998976256 decoybenefit:14949749993857536
+6677is c=2491624998976256d=14949749993857536
+as:6677decide to decoy
+building route of as:6682
+6682getting all route through it--from DS_AS.AS.routeBuild
+6682marking its decoy route--from DS_AS.AS.getDecoy
+6682is making its decision --from DS_AS.AS.response
+6682 cleanbenefit:25939281636633344 decoybenefit:155635689819800064
+6682is c=25939281636633344d=155635689819800064
+as:6682decide to decoy
+building route of as:6694
+6694getting all route through it--from DS_AS.AS.routeBuild
+6694marking its decoy route--from DS_AS.AS.getDecoy
+6694is making its decision --from DS_AS.AS.response
+6694 cleanbenefit:178169741443584 decoybenefit:1069018448661504
+6694is c=178169741443584d=1069018448661504
+as:6694decide to decoy
+building route of as:6697
+6697getting all route through it--from DS_AS.AS.routeBuild
+6697marking its decoy route--from DS_AS.AS.getDecoy
+6697is making its decision --from DS_AS.AS.response
+6697 cleanbenefit:17555619769132252 decoybenefit:105333718614793512
+6697is c=17555619769132252d=105333718614793512
+as:6697decide to decoy
+building route of as:6700
+6700getting all route through it--from DS_AS.AS.routeBuild
+6700marking its decoy route--from DS_AS.AS.getDecoy
+6700is making its decision --from DS_AS.AS.response
+6700 cleanbenefit:1449637229558016 decoybenefit:8697823377348096
+6700is c=1449637229558016d=8697823377348096
+as:6700decide to decoy
+building route of as:6701
+6701getting all route through it--from DS_AS.AS.routeBuild
+6701marking its decoy route--from DS_AS.AS.getDecoy
+6701is making its decision --from DS_AS.AS.response
+6701 cleanbenefit:7929856 decoybenefit:47579136
+6701is c=7929856d=47579136
+as:6701decide to decoy
+building route of as:6702
+6702getting all route through it--from DS_AS.AS.routeBuild
+6702marking its decoy route--from DS_AS.AS.getDecoy
+6702is making its decision --from DS_AS.AS.response
+6702 cleanbenefit:483216609530624 decoybenefit:2899299657183744
+6702is c=483216609530624d=2899299657183744
+as:6702decide to decoy
+building route of as:6712
+6712getting all route through it--from DS_AS.AS.routeBuild
+6712marking its decoy route--from DS_AS.AS.getDecoy
+6712is making its decision --from DS_AS.AS.response
+6712 cleanbenefit:699177982141184 decoybenefit:4195067892847104
+6712is c=699177982141184d=4195067892847104
+as:6712decide to decoy
+building route of as:6713
+6713getting all route through it--from DS_AS.AS.routeBuild
+6713marking its decoy route--from DS_AS.AS.getDecoy
+6713is making its decision --from DS_AS.AS.response
+6713 cleanbenefit:68773014536192 decoybenefit:412638087217152
+6713is c=68773014536192d=412638087217152
+as:6713decide to decoy
+building route of as:6717
+6717getting all route through it--from DS_AS.AS.routeBuild
+6717marking its decoy route--from DS_AS.AS.getDecoy
+6717is making its decision --from DS_AS.AS.response
+6717 cleanbenefit:194366962354176 decoybenefit:1166201774125056
+6717is c=194366962354176d=1166201774125056
+as:6717decide to decoy
+building route of as:6719
+6719getting all route through it--from DS_AS.AS.routeBuild
+6719marking its decoy route--from DS_AS.AS.getDecoy
+6719is making its decision --from DS_AS.AS.response
+6719 cleanbenefit:32394540911616 decoybenefit:194367245469696
+6719is c=32394540911616d=194367245469696
+as:6719decide to decoy
+building route of as:6720
+6720getting all route through it--from DS_AS.AS.routeBuild
+6720marking its decoy route--from DS_AS.AS.getDecoy
+6720is making its decision --from DS_AS.AS.response
+6720 cleanbenefit:6290447279906624 decoybenefit:37742683679439744
+6720is c=6290447279906624d=37742683679439744
+as:6720decide to decoy
+building route of as:6724
+6724getting all route through it--from DS_AS.AS.routeBuild
+6724marking its decoy route--from DS_AS.AS.getDecoy
+6724is making its decision --from DS_AS.AS.response
+6724 cleanbenefit:2778581640429056 decoybenefit:16671489842574336
+6724is c=2778581640429056d=16671489842574336
+as:6724decide to decoy
+building route of as:6730
+6730getting all route through it--from DS_AS.AS.routeBuild
+6730marking its decoy route--from DS_AS.AS.getDecoy
+6730is making its decision --from DS_AS.AS.response
+6730 cleanbenefit:106668911938135882 decoybenefit:640013471628815292
+6730is c=106668911938135882d=640013471628815292
+as:6730decide to decoy
+building route of as:6734
+6734getting all route through it--from DS_AS.AS.routeBuild
+6734marking its decoy route--from DS_AS.AS.getDecoy
+6734is making its decision --from DS_AS.AS.response
+6734 cleanbenefit:693778958049536 decoybenefit:4162673748297216
+6734is c=693778958049536d=4162673748297216
+as:6734decide to decoy
+building route of as:6735
+6735getting all route through it--from DS_AS.AS.routeBuild
+6735marking its decoy route--from DS_AS.AS.getDecoy
+6735is making its decision --from DS_AS.AS.response
+6735 cleanbenefit:442723758777344 decoybenefit:2656342552664064
+6735is c=442723758777344d=2656342552664064
+as:6735decide to decoy
+building route of as:6738
+6738getting all route through it--from DS_AS.AS.routeBuild
+6738marking its decoy route--from DS_AS.AS.getDecoy
+6738is making its decision --from DS_AS.AS.response
+6738 cleanbenefit:29694996556544 decoybenefit:178169979339264
+6738is c=29694996556544d=178169979339264
+as:6738decide to decoy
+building route of as:6752
+6752getting all route through it--from DS_AS.AS.routeBuild
+6752marking its decoy route--from DS_AS.AS.getDecoy
+6752is making its decision --from DS_AS.AS.response
+6752 cleanbenefit:563487397333592 decoybenefit:3380924384001552
+6752is c=563487397333592d=3380924384001552
+as:6752decide to decoy
+building route of as:6758
+6758getting all route through it--from DS_AS.AS.routeBuild
+6758marking its decoy route--from DS_AS.AS.getDecoy
+6758is making its decision --from DS_AS.AS.response
+6758 cleanbenefit:19189510291770613 decoybenefit:115137061750623678
+6758is c=19189510291770613d=115137061750623678
+as:6758decide to decoy
+building route of as:6768
+6768getting all route through it--from DS_AS.AS.routeBuild
+6768marking its decoy route--from DS_AS.AS.getDecoy
+6768is making its decision --from DS_AS.AS.response
+6768 cleanbenefit:8680577331967456 decoybenefit:52083463991804736
+6768is c=8680577331967456d=52083463991804736
+as:6768decide to decoy
+building route of as:6769
+6769getting all route through it--from DS_AS.AS.routeBuild
+6769marking its decoy route--from DS_AS.AS.getDecoy
+6769is making its decision --from DS_AS.AS.response
+6769 cleanbenefit:99987430765568 decoybenefit:599924584593408
+6769is c=99987430765568d=599924584593408
+as:6769decide to decoy
+building route of as:6772
+6772getting all route through it--from DS_AS.AS.routeBuild
+6772marking its decoy route--from DS_AS.AS.getDecoy
+6772is making its decision --from DS_AS.AS.response
+6772 cleanbenefit:1398347331487232 decoybenefit:8390083988923392
+6772is c=1398347331487232d=8390083988923392
+as:6772decide to decoy
+building route of as:6774
+6774getting all route through it--from DS_AS.AS.routeBuild
+6774marking its decoy route--from DS_AS.AS.getDecoy

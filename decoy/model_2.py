@@ -22,7 +22,7 @@ def select(ASes,cen,CGR,P,decoylist):
 			ratio=AdRecord.inter(Ad).size/Ad.union(AdRecord).size
 			Ac=cen.response(ASes.getDecoyAS())
 	# until it's stablity reach our design
-		if ratio<glb.Stabilty:
+		if ratio>glb.Stabilty:
 			EQ,EC=refineEQ(ASes,Ad.inter(A_d),Ac,CGR,P,AdRecord.getDecoyASList())
 			return EQ,EC
 		else:

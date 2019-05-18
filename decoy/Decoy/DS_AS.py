@@ -143,6 +143,7 @@ class ASset:
                 self.decoyASlist.append(a.asn)
                 decoylist=self.decoyASlist
             else:
+                print("as:"+a.asn+"decide not to decoy")
                 a.decoy_flag=False
         d=dict()
         for a in self.ASs:
