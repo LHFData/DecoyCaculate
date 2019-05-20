@@ -45,10 +45,10 @@ class AS:
         self.decoybenefit=0
         if len(self.normal_route)!=0:
             for nr in self.normal_route:
-                self.cleanbenefit=self.cleanbenefit+int(CGR[nr[0]]['size'])*int(CGR[nr[-1]]['size'])
+                self.cleanbenefit=self.cleanbenefit+(int(CGR[nr[0]]['size'])/glb.less)*(int(CGR[nr[-1]]['size'])/glb.less)
         if len(self.normal_route)!=0:
             for dr in self.normal_route:
-                self.decoybenefit=self.decoybenefit+int(CGR[dr[0]]['size'])*int(CGR[dr[-1]]['size'])*(1+glb.t)
+                self.decoybenefit=self.decoybenefit+(int(CGR[dr[0]]['size'])/glb.less)*(int(CGR[dr[-1]]['size'])/glb.less)*(1+glb.t)
         print(self.asn+" cleanbenefit:"+str(self.cleanbenefit)+" decoybenefit:"+str(self.decoybenefit))
        # for p in P:
        #     if p!=None:

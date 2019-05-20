@@ -1,0 +1,28 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/process.py", line 232, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/process.py", line 191, in _process_chunk
+    return [fn(*args) for args in chunk]
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/process.py", line 191, in <listcomp>
+    return [fn(*args) for args in chunk]
+  File "routeBuildEach.py", line 12, in getEachRoute
+    for ll in l[start:end]:
+TypeError: unhashable type: 'slice'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "routeBuildEach.py", line 36, in <module>
+    res=list(exe.map(getEachRoute,lines))
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/process.py", line 476, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/_base.py", line 586, in result_iterator
+    yield fs.pop().result()
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/opt/miniconda3/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+TypeError: unhashable type: 'slice'
