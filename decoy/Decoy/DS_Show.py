@@ -2,7 +2,30 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import json,os
 import numpy as np
-G=nx.read_gpickle("../data/ChinaAdjacent.gpickle")
+G=nx.read_gpickle("../data/ChinaAdjacent.gpickle").to_undirected()
+
+def drawSpring():
+    geoloc=dict()
+    with open("GeoOfAS.json","r") as f:
+        geoloc=json.load(f)
+    pos=dict()
+#    if not os.access("pos.npy",os.F_OK):
+    for k,v in geoloc.items():
+        l=np.array([v["longi"]*1000,v["lati"]*1000],float)
+        pos[k]=l
+#    np.save("pos.npy",pos)
+#    else:
+#        np.load("pos.npy")
+  #  with open("../data/pos.json","w")as f :
+  #      json.dump(pos,f)
+   # posp=nx.spring_layout(G,pos)
+    #nx.draw(G,pos,node_size=10,width=0.1)
+#    G=G.to_undirected()
+    nx.draw_networkx_edges(G,pos,width=0.1,alpha=0.1)
+    nx.draw_networkx_nodes(G,pos,node_size=10,node_color=[int(i)/65535 for i in list(pos.keys())],cmap=plt.cm.Reds_r)
+    plt.rcParams['savefig.dpi']=1000
+    plt.rcParams['figure.dpi']=1000
+    plt.savefig("../picoutput/geoofAS.png")
 
 def result():
    # pos=nx.get_node_attributes(G,'pos')
@@ -24,16 +47,16 @@ def result():
             ncenter=n
             dmin=d
     p=dict(nx.single_source_shortest_path_length(G,ncenter))
-    plt.figure(figsize=(8,8))
+    plt.figure(figsize=(10000,10000))
     nx.draw_networkx_edges(G,pos,nodelist=[ncenter],alpha=0.4)
     nx.draw_networkx_nodes(G,pos,nodelist=list(p.keys()),
-                           node_size=80,
+                           node_size=10,
                            node_color=list(p.values()),
                            cmap=plt.cm.Reds_r)
-    plt.xlim(-0.05,1.05)
-    plt.ylim(-0.05,1.05)
+    plt.xlim(0,100)
+    plt.ylim(0,100)
     plt.axis('off')
-    plt.savefig("potedge.png")
+    plt.savefig("../picoutput/potedge.png")
 def init():
     if not os.access("ChinaAdjacent.gpickle",os.F_OK):
         rg=dict()
@@ -65,4 +88,4 @@ def init():
     print("draw finish")
     plt.savefig("topo.png") 
 if __name__=="__main__":
-    result()
+    drawSpring()

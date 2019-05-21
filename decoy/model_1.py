@@ -6,6 +6,7 @@ from Decoy import DS_Route as struct
 from Decoy import DS_Caculate as method
 from Decoy import DS_Global as glb
 import pdb,json
+import time
 #from Decoy.DS_Route import ASset,AS
 def game_one(ASes,ASesR,Ad,R,A_d,F):
     while C_Decoy.get(Ad) < F :
@@ -51,7 +52,7 @@ if __name__== '__main__':
     ASes_init.build_init(glb.ChinaGeoLoc_Relate,glb.EcoRel,glb.Paths)
     print("listlength:"+str(len(ASes_init.ASs))+"from model_1 ")
     #F/p0=10000000,F is the budget
-    F=glb.F
+    F=int(sys.argv[1])
    
     Ad=select(ASes_init)
     A_d=selectR(ASes_init)
@@ -64,12 +65,15 @@ if __name__== '__main__':
     for a in A_d.ASs:
         lA_d.append(a.asn)
 #    if method.U(lAd)>method.U(lA_d):
+    t=str(time.strftime('%Y.%m.%d-%H:%M:%S',time.localtime(time.time())))
     if method.U(lAd,glb.Paths,glb.ChinaGeoLoc,glb.ChinaASList,glb.ChinaGeoLoc_Relate): 
-        with open("output/game1Decoy.json","w")as f:
+        with open("output/game1Decoy"+t+".json","w")as f:
             json.dump(lAd,f)
+        print(len(lAd))
     else:
-        with open("output/game1Decoy.json","w")as f:
+        with open("output/game1Decoy"+t+".json","w")as f:
             json.dump(lA_d,f)
+        print(len(lA_d))
  # ds set
 
 # C_decoy: the cost of decoy
